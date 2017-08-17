@@ -36,7 +36,7 @@
         </div>
         <div class="left" style="width: 670px;height: 300px">
             <div class="" style="width: 670px;height: 100px;margin-top: 10px">
-              <div class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
+              <div id="banner_leftbtn" class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
                     <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_leftarrow.png">
               </div>
               <div class="left banner" style="width: 610px;height: 100px">
@@ -52,11 +52,11 @@
                       <img src="../image/ban3.png" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
                   </div>
               </div>
-              <div class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
+              <div id="banner_rightbtn" class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
                   <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_rightarrow.png">
               </div>
             </div>
-            <div style="border: 1px solid red;width: 670px;height: 180px;margin-top: 10px">
+            <div style="width: 670px;height: 180px;margin-top: 10px">
                 <div class="activityshow">
                     <span>活动</span>
                     <a href="javascript:;" style="padding: 0px"><b>活动内容介绍</b></a>
@@ -65,17 +65,17 @@
                     <a style="float: left"><img src="../image/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
                   <div>
                     <div class="activitycontext">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
-                           内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" style="color: #000000">活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
+                           内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</a></p>
+                    </div>
+                    <div class="right" style="bottom: 0px">
+                        <a href="javascript:;"><img src="../image/xiangqing.png"></a>
                     </div>
                   </div>
-                   <div>
-
-                   </div>
                 </div>
             </div>
         </div>
-        <div class="right" style="border: 1px solid red;width: 320px;height: 290px;margin-top: 10px">
+        <div class="right count" style="border: 1px solid red;">
 
         </div>
     </div>

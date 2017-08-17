@@ -21,6 +21,39 @@
     height: 360px;
     width: 4060px;
 }
+.shadow{
+    width: 668px;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    height: 40px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 15px;
+    opacity:0.5;
+}
+.shadow em {
+    background: #e74866;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    width: 40px;
+}
+.shadow a {
+    color: #fff;
+    font-family: "微软雅黑", "黑体";
+    font-size: 18px;
+    overflow: hidden;
+    margin-left: 10px;
+    text-decoration: none;
+}
 .img_center{
     text-align: center;
     background-color: #c7c7c7;
@@ -70,4 +103,5 @@
     height: 290px;
     margin: 10px 17px 0px 0px
 }
+
 

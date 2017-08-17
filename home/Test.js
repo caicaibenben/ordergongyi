@@ -64,33 +64,34 @@ $(document).ready(function () {
 	//
 	// 	}
 	// });
-	// $(".btn_left").on("click",function () {
-	// 	console.log("left");
-	// 	imgCount=imgCount==0?3:(imgCount-1);
-	// 	$("#img_out").stop().animate({'left':-imgCount*imgWidthEach},500);
-	// 	$(".text_out_box  .text_img_box").eq(imgCount).show().siblings().hide();
-	// 	$("#icon-out  .icon  img").eq(imgCount).attr("src","image/book_active.png");
-	// 	for(var i=0;i<imgLength;i++)
-	// 	{
-	// 		if(i==imgCount){
-	// 			continue;
-	// 		}
-	// 		$("#icon-out  .icon  img").eq(i).attr("src","image/book.png")
-	// 	}
-	//
-	// });
-	$(".btn_right").on("click",function () {
-		console.log("right");
-		imgCount=imgCount==3?0:(imgCount+1);
-		$("#img_out").stop().animate({'left':-imgCount*imgWidthEach},500);
-		$(".text_out_box  .text_img_box").eq(imgCount).show().siblings().hide();
-		$("#icon-out  .icon  img").eq(imgCount).attr("src","image/book_active.png");
-		for(var i=0;i<imgLength;i++)
-		{
-			if(i==imgCount){
-				continue;
-			}
-			$("#icon-out  .icon  img").eq(i).attr("src","image/book.png")
+	$("#banner_leftbtn").on("click",function () {
+		console.log("left");
+		imgCount--;
+		imgCount_tumb--;
+		if(imgCount<0){
+			imgCount=4;
+			$('.img_box').css({'left':-3370});
 		}
+		if(imgCount_tumb<0){
+			imgCount_tumb=4;
+			$('.img_box_tumb').css({'left':-775});
+		}
+		$(".img_box").stop().animate({'left':-imgCount*imgWidthEach},500);
+		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb*imgWidthEach_tumb},500);
+	});
+	$("#banner_rightbtn").on("click",function () {
+		console.log("right");
+		imgCount++;
+		imgCount_tumb++;
+		if(imgCount==imgLength){
+			imgCount=1;
+			$('.img_box').css({'left':0});
+		}
+		if(imgCount_tumb==(imgLength_tumb-3)){
+			imgCount_tumb=1;
+			$('.img_box_tumb').css({'left':0});
+		}
+		$(".img_box").stop().animate({'left':-imgCount*imgWidthEach},500);
+		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb*imgWidthEach_tumb},500);
 	});
 });
