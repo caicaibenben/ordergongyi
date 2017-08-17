@@ -44,15 +44,15 @@
 <nav class="nav_color" role="navigation" >
     <div class="layout">
         <ul class="nav navbar-nav">
-            <li><a href="" target="_self"><b>首页</b></a></li>
+            <li><a href="" target="_self">首页</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self"><b>活动报道</b></a></li>
+            <li><a href="" target="_self">活动报道</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self"><b>精准助学</b></a></li>
+            <li><a href="" target="_self">精准助学</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self"><b>往期回顾</b></a></li>
+            <li><a href="" target="_self">往期回顾</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self"><b>展望未来</b></a></li>
+            <li><a href="" target="_self">展望未来</a></li>
         </ul>
     </div>
 </nav>

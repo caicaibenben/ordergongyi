@@ -27,6 +27,7 @@
 }
 .navbar-nav>li>a{
     font-size:large;
+    font-family: "Microsoft YaHei UI","Arial";
     color: white;
     padding: 6px 15px 7px 15px;
 }

@@ -20,8 +20,67 @@
     <link rel="stylesheet" href="Test.css" type="text/css">
 </head>
 <body>
+    <div class="layout" style="border: 1px solid red;height: 660px">
+        <div class="left banner" style="width: 670px;height: 360px">
+          <div class="img_box">
+            <img src="../image/ban0.png" alt="" width="670px " height="360px">
+            <img src="../image/ban1.png" alt="" width="670px " height="360px">
+            <img src="../image/ban2.png" alt="" width="670px " height="360px">
+            <img src="../image/ban3.png" alt="" width="670px " height="360px">
+            <img src="../image/ban4.png" alt="" width="670px " height="360px">
+            <img src="../image/ban0.png" alt="" width="670px " height="360px">
+          </div>
+        </div>
+        <div class="right" style="width: 320px;height: 360px">
+            <img src="../image/totaldata.png">
+        </div>
+        <div class="left" style="width: 670px;height: 300px">
+            <div class="" style="width: 670px;height: 100px;margin-top: 10px">
+              <div class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
+                    <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_leftarrow.png">
+              </div>
+              <div class="left banner" style="width: 610px;height: 100px">
+                  <div class="img_box_tumb">
+                      <img src="../image/ban0.png" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">
+                      <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban3.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban4.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban0.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                      <img src="../image/ban3.png" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
+                  </div>
+              </div>
+              <div class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
+                  <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_rightarrow.png">
+              </div>
+            </div>
+            <div style="border: 1px solid red;width: 670px;height: 180px;margin-top: 10px">
+                <div class="activityshow">
+                    <span>活动</span>
+                    <a href="javascript:;" style="padding: 0px"><b>活动内容介绍</b></a>
+                </div>
+                <div>
+                    <a style="float: left"><img src="../image/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
+                  <div>
+                    <div class="activitycontext">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
+                           内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</p>
+                    </div>
+                  </div>
+                   <div>
 
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="right" style="border: 1px solid red;width: 320px;height: 290px;margin-top: 10px">
+
+        </div>
+    </div>
 </body>
+<script src="Test.js"></script>
 </html>
 
 
