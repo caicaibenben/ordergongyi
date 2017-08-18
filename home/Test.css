@@ -8,66 +8,79 @@
 .right{
     float: right;
 }
-.banner{
-    position: relative;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
+.part{
+    width: 983px;
+    margin: 0px auto;
 }
-.img_box{
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    height: 360px;
-    width: 4060px;
+.part .title{
+    width: 983px;
+    height: 66px;
+    margin: 30px 0px;
+    line-height: 66px;
+    vertical-align: middle;
+    border-bottom: 1px solid #c7c7c7;
+}
+.part .title span{
+    color: #a9a9a9;
+    font-size: 22px;
+    font-family: "微软雅黑","黑体";
+    line-height: 66px;
+    padding-left: 13px;
+    border-bottom: 1px solid red;
+}
+.part .title a{
+    color: #c7c7c7;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+
 }
 .img_center{
     text-align: center;
     background-color: #c7c7c7;
     display: table-cell;
 }
-.img_box_tumb{
-    position: absolute;
+.gallery_box{
     padding: 0px;
     margin: 0px;
-    height: 100px;
-    width: 1385px;
+    height: 235px;
+    width: 2100px;
 }
-.activityshow{
+.gallery{
+    width: 170px;
+    height: 235px;
+    margin-right: 12px;
+    position: relative;
+}
+.gallery_shadow{
+    width: 668px;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    height: 60px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
     display: block;
-    font-family: "微软雅黑", "黑体";
-    font-size: 22px;
-    font-weight: normal;
-    height: 32px;
-    line-height: 32px;
+    line-height: 60px;
     overflow: hidden;
-    margin-bottom: 15px;
+    padding: 0 15px;
 }
-.activityshow span{
-    background: url(../image/biaotiblue.png) repeat-y;
+.gallery_shadow span {
+    background: #e74866;
     color: #fff;
-    display: block;
     font-size: 14px;
     float: left;
-    height: 28px;
-    margin-right: 15px;
-    padding-right: 5px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
     text-align: center;
     width: 40px;
-    vertical-align: middle;
 }
-.activityshow a:link{
-    color: #a1a1a1;
+.gallery_shadow a {
+    color: #fff;
+    font-family: "微软雅黑", "Arial","黑体";
+    font-size: 18px;
+    overflow: hidden;
+    margin-left: 10px;
+    text-decoration: none;
 }
-.activitycontext{
-    width: 450px;
-    margin-left: 15px;
-    float: left;
-    line-height: 22px;
-}
-.count{
-    width: 290px;
-    height: 290px;
-    margin: 10px 17px 0px 0px
-}
-

@@ -8,7 +8,6 @@
     <title>奥德公益</title>
     <link type="image/x-icon" href="" rel="icon">
     <link href="../image/ico.png" rel="shortcut icon">
-
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
@@ -20,65 +19,144 @@
     <link rel="stylesheet" href="Test.css" type="text/css">
 </head>
 <body>
-    <div class="layout" style="border: 1px solid red;height: 660px">
-        <div class="left banner" style="width: 670px;height: 360px">
-          <div class="img_box">
-            <img src="../image/ban0.png" alt="" width="670px " height="360px">
-            <img src="../image/ban1.png" alt="" width="670px " height="360px">
-            <img src="../image/ban2.png" alt="" width="670px " height="360px">
-            <img src="../image/ban3.png" alt="" width="670px " height="360px">
-            <img src="../image/ban4.png" alt="" width="670px " height="360px">
-            <img src="../image/ban0.png" alt="" width="670px " height="360px">
-          </div>
-        </div>
-        <div class="right" style="width: 320px;height: 360px">
-            <img src="../image/totaldata.png">
-        </div>
-        <div class="left" style="width: 670px;height: 300px">
-            <div class="" style="width: 670px;height: 100px;margin-top: 10px">
-              <div id="banner_leftbtn" class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
-                    <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_leftarrow.png">
-              </div>
-              <div class="left banner" style="width: 610px;height: 100px">
-                  <div class="img_box_tumb">
-                      <img src="../image/ban0.png" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">
-                      <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban3.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban4.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban0.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                      <img src="../image/ban3.png" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
-                  </div>
-              </div>
-              <div id="banner_rightbtn" class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
-                  <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_rightarrow.png">
-              </div>
+<!--精准助学-->
+<div class="part">
+    <!--标题栏-->
+    <div class="layout">
+        <div class="title">
+            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+                <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
             </div>
-            <div style="width: 670px;height: 180px;margin-top: 10px">
-                <div class="activityshow">
-                    <span>活动</span>
-                    <a href="javascript:;" style="padding: 0px"><b>活动内容介绍</b></a>
-                </div>
-                <div>
-                    <a style="float: left"><img src="../image/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
-                  <div>
-                    <div class="activitycontext">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" style="color: #000000">活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
-                           内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</a></p>
-                    </div>
-                    <div class="right" style="bottom: 0px">
-                        <a href="javascript:;"><img src="../image/xiangqing.png"></a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="right count" style="border: 1px solid red;">
-
+            <span class="left"><b>精准助学</b></span>
+            <a class="right" href="javascript:;">更多></a>
         </div>
     </div>
+    <!--精准助学图片-->
+    <div style="width: 983px;height: 235px">
+        <!--左按钮-->
+        <div id="gallery_leftbtn" class="left img_center" style="height: 235px;width: 30px;margin-right: 12px">
+            <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img
+                src="../image/leftarrow_sm.png">
+        </div>
+        <!--图片画廊-->
+        <div class="left" style="height: 235px;width: 898px;overflow: hidden">
+            <div id="gallery_box" class="left gallery_box" style="border: 1px solid red">
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery5.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+                <div class="left gallery">
+                    <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
+                    <span class="shadow">
+                      <span>活动</span>
+                      <a href="javascript:;" target="_blank">详细内容介绍</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--右按钮-->
+        <div id="gallery_rightbtn" class="left img_center" style="height: 235px;width: 30px;margin-left: 12px">
+            <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img
+                src="../image/rightarrow_sm.png">
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="layout">
+        <div class="title">
+            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+                <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+            </div>
+            <span class="left"><b>往期回顾</b></span>
+            <a class="right" href="javascript:;">更多></a>
+        </div>
+
+    </div>
+    <div style="border: 1px solid red;width: 983px;height: 235px">
+
+    </div>
+</div>
+<div class="part">
+    <div class="layout">
+        <div class="title">
+            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+                <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+            </div>
+            <span class="left"><b>展望未来</b></span>
+            <a class="right" href="javascript:;">更多></a>
+        </div>
+
+    </div>
+    <div style="border: 1px solid red;width: 983px;height: 235px">
+
+    </div>
+</div>
 </body>
 <script src="Test.js"></script>
 </html>

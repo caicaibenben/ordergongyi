@@ -20,48 +20,48 @@
     <link rel="stylesheet" href="SecondTest.css" type="text/css">
 </head>
 <body>
-<div class="layout" style="border: 1px solid red;height: 660px">
+<div class="layout" style="height: 660px">
     <div class="left banner" style="width: 670px;height: 360px">
         <div class="img_box">
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban0.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
                     <em>活动</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban1.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
                     <em>视频</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban2.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
                     <em>捐助</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban3.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
                     <em>公益</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban4.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
                     <em>资讯</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
-            <div class="left" style="width: 670px;height: 360px">
+            <div class="left display" style="width: 670px;height: 360px">
                 <a href="javascript:;"><img src="../image/ban0.png" alt="" width="670px " height="360px"></a>
                 <span class="shadow">
-                    <em>新闻</em>
+                    <em>活动</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
             </div>
@@ -111,8 +111,60 @@
             </div>
         </div>
     </div>
-    <div class="right count" style="border: 1px solid red;">
-
+    <div class="right count">
+        <div style="background-color: rgb(245,67,55);height: 50px">
+            <span class="title">爱心捐赠·奥德悦生活</span>
+        </div>
+        <div style="border: 1px solid #979797;width: 290px;height: 240px">
+            <div class="showbox" style="">
+                <div class="left" style="height: 165px;width: 159px">
+                    <div >
+                        <div class="left heart" style="margin-left: 46px">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart_active.png" alt="">
+                            <img src="../image/heart_active.png" alt="">
+                        </div>
+                        <div class="right heart" style="margin-right: 46px">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                            <img src="../image/heart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right" style="height: 165px;width: 89px">
+                    <div>
+                        <div class="man left">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                            <img src="../image/people_active.png">
+                            <img src="../image/people_active.png">
+                        </div>
+                        <div class="man left">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                            <img src="../image/people.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 250px;height: 70px;margin-left: 20px">
+                <div class="left context" style="width: 160px;height: 70px">
+                    <span style="color: red">100,000/500,000</span>
+                    <P style="color: #000000">累计爱心</P>
+                </div>
+                <div class="right context" style="width: 90px;height: 70px">
+                    <span style="color: red">10/50</span>
+                    <P style="color: #000000">捐赠人数</P>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
