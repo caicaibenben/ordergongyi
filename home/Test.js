@@ -1,29 +1,17 @@
 $(document).ready(function () {
 	//切屏动画
 	var imgCount = 0;//初始化并记录切换数据
-	var imgCount_tumb=0;
-	var imgLength = $(".img_box img").length;
-	var imgLength_tumb = $(".img_box_tumb img").length;
-	var imgWidthEach =674;
-	var imgWidthEach_tumb =155;
+	var imgLength = $(".gallery_box .gallery").length;
+	var imgWidthEach =182;
 	var  imgTimer = null;//记录定时切换
 	console.log(imgLength);
-	console.log(imgLength_tumb);
 	function imgMove() {
 		imgCount++;
-		imgCount_tumb++;
-		console.log(imgCount);
-		if(imgCount==imgLength){
-			//console.log(imgCount);
+		if(imgCount==(imgLength-4)){
 			imgCount=1;
-			$('.img_box').css({'left':0});
+			$('.gallery_box').css({'left':0});
 		}
-		if(imgCount_tumb==(imgLength_tumb-3)){
-			imgCount_tumb=1;
-			$('.img_box_tumb').css({'left':0});
-		}
-		$(".img_box").stop().animate({'left':-imgCount*imgWidthEach},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb*imgWidthEach_tumb},500);
+		$(".gallery_box").stop().animate({'left':-imgCount*imgWidthEach},500);
 	}
 	imgTimer = window.setInterval(imgMove, 4000);
 	// //图标鼠标事件
@@ -64,34 +52,20 @@ $(document).ready(function () {
 	//
 	// 	}
 	// });
-	$("#banner_leftbtn").on("click",function () {
-		console.log("left");
+	$("#gallery_leftbtn").on("click",function () {
 		imgCount--;
-		imgCount_tumb--;
 		if(imgCount<0){
-			imgCount=4;
-			$('.img_box').css({'left':-3370});
+			imgCount=6;
+			$('.gallery_box').css({'left':-1092});
 		}
-		if(imgCount_tumb<0){
-			imgCount_tumb=4;
-			$('.img_box_tumb').css({'left':-775});
-		}
-		$(".img_box").stop().animate({'left':-imgCount*imgWidthEach},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb*imgWidthEach_tumb},500);
+		$(".gallery_box").stop().animate({'left':-imgCount*imgWidthEach},500);
 	});
-	$("#banner_rightbtn").on("click",function () {
-		console.log("right");
+	$("#gallery_rightbtn").on("click",function () {
 		imgCount++;
-		imgCount_tumb++;
-		if(imgCount==imgLength){
+		if(imgCount==(imgLength-4)){
 			imgCount=1;
-			$('.img_box').css({'left':0});
+			$('.gallery_box').css({'left':0});
 		}
-		if(imgCount_tumb==(imgLength_tumb-3)){
-			imgCount_tumb=1;
-			$('.img_box_tumb').css({'left':0});
-		}
-		$(".img_box").stop().animate({'left':-imgCount*imgWidthEach},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb*imgWidthEach_tumb},500);
+		$(".gallery_box").stop().animate({'left':-imgCount*imgWidthEach},500);
 	});
 });

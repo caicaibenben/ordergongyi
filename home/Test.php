@@ -24,7 +24,7 @@
     <!--标题栏-->
     <div class="layout">
         <div class="title">
-            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+            <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
                 <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
             </div>
             <span class="left"><b>精准助学</b></span>
@@ -40,83 +40,83 @@
         </div>
         <!--图片画廊-->
         <div class="left" style="height: 235px;width: 898px;overflow: hidden">
-            <div id="gallery_box" class="left gallery_box" style="border: 1px solid red">
+            <div id="gallery_box" class="left gallery_box" style="">
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
+                    <div class="gallery_shadow" style="display: none">
                       <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                      <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery5.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
                 <div class="left gallery">
                     <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
-                    <span class="shadow">
-                      <span>活动</span>
-                      <a href="javascript:;" target="_blank">详细内容介绍</a>
-                    </span>
+                    <div class="gallery_shadow" style="display: none">
+                        <span>活动</span>
+                        <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
 <div class="part">
     <div class="layout">
         <div class="title">
-            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+            <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
                 <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
             </div>
             <span class="left"><b>往期回顾</b></span>
@@ -145,7 +145,7 @@
 <div class="part">
     <div class="layout">
         <div class="title">
-            <div class="left" style="width: 25px;height: 67px;border-bottom: 1px solid red">
+            <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
                 <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
             </div>
             <span class="left"><b>展望未来</b></span>
@@ -153,8 +153,8 @@
         </div>
 
     </div>
-    <div style="border: 1px solid red;width: 983px;height: 235px">
-
+    <div style="width: 983px;height: 387px">
+        <a><img src="../image/funture.png" width="983px" height="387px"></a>
     </div>
 </div>
 </body>

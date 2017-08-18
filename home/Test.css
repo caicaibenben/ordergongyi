@@ -24,7 +24,7 @@
     color: #a9a9a9;
     font-size: 22px;
     font-family: "微软雅黑","黑体";
-    line-height: 66px;
+    line-height: 65px;
     padding-left: 13px;
     border-bottom: 1px solid red;
 }
@@ -45,6 +45,7 @@
     margin: 0px;
     height: 235px;
     width: 2100px;
+    position: relative;
 }
 .gallery{
     width: 170px;
@@ -53,34 +54,32 @@
     position: relative;
 }
 .gallery_shadow{
-    width: 668px;
+    width: 170px;
+    height: 100px;
     position: absolute;
     left: 0px;
-    z-index: 10;
-    height: 60px;
     bottom: 0px;
+    z-index: 10;
     background: rgba(0,0,0,0.6);
-    display: block;
-    line-height: 60px;
-    overflow: hidden;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .gallery_shadow span {
-    background: #e74866;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     float: left;
     height: 20px;
     line-height: 20px;
-    margin-top: 10px;
-    text-align: center;
-    width: 40px;
+    margin-top: 15px;
+    width: 140px;
 }
 .gallery_shadow a {
+    float: left;
+    width: 140px;
+    padding: 10px 0px;
     color: #fff;
     font-family: "微软雅黑", "Arial","黑体";
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 22px;
     overflow: hidden;
-    margin-left: 10px;
     text-decoration: none;
 }
