@@ -207,18 +207,180 @@
         </div>
     </div>
 </section>
-        <!--精准助学-->
-        <section>
-
-        </section>
-        <!--往期回顾-->
-        <section>
-
-        </section>
-        <!--展望未来-->
-        <section>
-
-        </section>
+    <!--精准助学-->
+    <div class="part">
+        <!--标题栏-->
+        <div class="layout">
+            <div class="title">
+                <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
+                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                </div>
+                <span class="left"><b>精准助学</b></span>
+                <a class="right" href="javascript:;">更多></a>
+            </div>
+        </div>
+        <!--精准助学图片-->
+        <div style="width: 983px;height: 235px">
+            <!--左按钮-->
+            <div id="gallery_leftbtn" class="left img_center" style="height: 235px;width: 30px;margin-right: 12px">
+                <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img
+                    src="../image/gallery/leftarrow_sm.png">
+            </div>
+            <!--图片画廊-->
+            <div class="left" style="height: 235px;width: 898px;overflow: hidden">
+                <div id="gallery_box" class="left gallery_box" style="">
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery5.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                    <div class="left gallery">
+                        <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
+                        <div class="gallery_shadow" style="display: none">
+                            <span>活动</span>
+                            <a href="javascript:;" target="_blank">详细内容介绍<br>详细内容介绍</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--右按钮-->
+            <div id="gallery_rightbtn" class="left img_center" style="height: 235px;width: 30px;margin-left: 12px">
+                <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img
+                    src="../image/gallery/rightarrow_sm.png">
+            </div>
+        </div>
+    </div>
+    <!--往期回顾-->
+    <div class="part">
+        <!--标题-->
+        <div class="layout">
+            <div class="title">
+                <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
+                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                </div>
+                <span class="left"><b>往期回顾</b></span>
+                <a class="right" href="javascript:;">更多></a>
+            </div>
+        </div>
+        <!--轮播图-->
+        <div id="carousel" style="">
+            <!--左按钮-->
+            <div class="left carousel_leftbtn">
+                <img src="../image/carousel/leftarrow.png" height="170px" width="50px">
+            </div>
+            <!--图片-->
+            <div class="carousel_box" style="background-color: rgba(199,199,199,1)">
+                <div class="left"  style="height: 472px;width: 983px">
+                    <img class="carousel_img left" src="../image/carousel/carousel0.png">
+                    <div class="carousel_text left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍
+                    </div>
+                </div>
+                <div class="left"  style="height: 472px;width: 983px">
+                    <img class="carousel_img left" src="../image/carousel/carousel1.png">
+                    <div class="carousel_text left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍
+                    </div>
+                </div>
+                <div class="left"  style="height: 472px;width: 983px">
+                    <img class="carousel_img left" src="../image/carousel/carousel2.png">
+                    <div class="carousel_text left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍
+                    </div>
+                </div>
+                <div class="left"  style="height: 472px;width: 983px">
+                    <img class="carousel_img left" src="../image/carousel/carousel0.png">
+                    <div class="carousel_text left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍详细活动内容介绍
+                    </div>
+                </div>
+            </div>
+            <!--右按钮-->
+            <div class="right carousel_rightbtn">
+                <img src="../image/carousel/rightarrow.png" height="170px" width="50px">
+            </div>
+        </div>
+    </div>
+    <!--展望未来-->
+    <div class="part">
+        <div class="layout">
+            <div class="title">
+                <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
+                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                </div>
+                <span class="left"><b>展望未来</b></span>
+                <a class="right" href="javascript:;">更多></a>
+            </div>
+        </div>
+        <div style="width: 983px;height: 387px">
+            <a><img src="../image/funture.png" width="983px" height="387px"></a>
+        </div>
+    </div>
 </div>
     <!--底部-->
     <footer>

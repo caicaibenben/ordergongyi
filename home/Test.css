@@ -8,78 +8,56 @@
 .right{
     float: right;
 }
-.part{
-    width: 983px;
-    margin: 0px auto;
+.nav_color{
+    background-color: #f32613;
+    height: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 35px;
+    border: 1px solid #f32613;
 }
-.part .title{
-    width: 983px;
-    height: 66px;
-    margin: 30px 0px;
-    line-height: 66px;
-    vertical-align: middle;
-    border-bottom: 1px solid #c7c7c7;
+.navbar-nav ul{
+    height: 33px;
+    padding: 0px 10px;
 }
-.part .title span{
-    color: #a9a9a9;
-    font-size: 22px;
-    font-family: "微软雅黑","黑体";
-    line-height: 65px;
-    padding-left: 13px;
-    border-bottom: 1px solid red;
+.navbar-nav>li>a{
+    font-size:large;
+    font-family: "Microsoft YaHei UI","Arial";
+    color: white;
+    padding: 6px 15px 7px 15px;
 }
-.part .title a{
-    color: #c7c7c7;
-    font-size: 14px;
-    text-decoration: none;
-    float: right;
-
+.navbar-nav>li>a:hover{
+    background: #c52513;
 }
-.img_center{
+.navbar-nav>li>a:active{
+    background: #c52513;
+}
+.nav .line {
+    background: url(../image/line.png) center no-repeat;
+    height: 25px;
+    padding: 15px 15px;
+    width: 1px;
+}
+.foot{
+    height: 190px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(199,199,199);
+}
+.foot_title{
+    margin: 20px auto;
+    height: 30px;
+    width: 1000px;
     text-align: center;
-    background-color: #c7c7c7;
-    display: table-cell;
+    padding: 0px auto;
 }
-.gallery_box{
-    padding: 0px;
-    margin: 0px;
-    height: 235px;
-    width: 2100px;
-    position: relative;
-}
-.gallery{
-    width: 170px;
-    height: 235px;
-    margin-right: 12px;
-    position: relative;
-}
-.gallery_shadow{
-    width: 170px;
-    height: 100px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    z-index: 10;
-    background: rgba(0,0,0,0.6);
-    padding: 0 10px;
-}
-.gallery_shadow span {
-    color: #fff;
-    font-size: 20px;
-    float: left;
-    height: 20px;
-    line-height: 20px;
-    margin-top: 15px;
-    width: 140px;
-}
-.gallery_shadow a {
-    float: left;
-    width: 140px;
-    padding: 10px 0px;
-    color: #fff;
-    font-family: "微软雅黑", "Arial","黑体";
+.foot_text{
+    width: 1000px;
+    margin: 1px auto;
+    text-align: center;
+    font-family: "微软雅黑", "Arial", "黑体";
     font-size: 14px;
-    line-height: 22px;
-    overflow: hidden;
-    text-decoration: none;
+    color: #979797;
+    border: 1px solid red;
+    line-height: 30px;
 }

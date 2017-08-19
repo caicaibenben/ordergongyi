@@ -91,11 +91,6 @@
     margin-left: 10px;
     text-decoration: none;
 }
-.img_center{
-    text-align: center;
-    background-color: #c7c7c7;
-    display: table-cell;
-}
 .img_box_tumb{
     position: absolute;
     padding: 0px;
@@ -181,4 +176,128 @@
     line-height: 25px;
     font-size: 18px;
     padding-top: 10px;
+}
+.part{
+    width: 983px;
+    margin: 0px auto;
+}
+.part .title{
+    width: 983px;
+    height: 66px;
+    margin: 30px 0px;
+    line-height: 66px;
+    vertical-align: middle;
+    border-bottom: 1px solid #c7c7c7;
+}
+.part .title span{
+    color: #a9a9a9;
+    font-size: 22px;
+    font-family: "微软雅黑","黑体";
+    line-height: 65px;
+    padding-left: 13px;
+    border-bottom: 1px solid red;
+}
+.part .title a{
+    color: #c7c7c7;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+
+}
+.img_center{
+    text-align: center;
+    background-color: #c7c7c7;
+    display: table-cell;
+    cursor: pointer;
+}
+.gallery_box{
+    padding: 0px;
+    margin: 0px;
+    height: 235px;
+    width: 2100px;
+    position: relative;
+}
+.gallery{
+    width: 170px;
+    height: 235px;
+    margin-right: 12px;
+    position: relative;
+}
+.gallery_shadow{
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 10;
+    background: rgba(0,0,0,0.6);
+    padding: 0 10px;
+}
+.gallery_shadow span {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    width: 140px;
+}
+.gallery_shadow a {
+    float: left;
+    width: 140px;
+    padding: 10px 0px;
+    color: #fff;
+    font-family: "微软雅黑", "Arial","黑体";
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+    text-decoration: none;
+}
+#carousel{
+    width: 983px;
+    height: 472px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel_leftbtn{
+    margin: 151px 20px;
+    z-index: 9;
+    cursor: pointer;
+    height: 170px;
+    width: 50px;
+}
+.carousel_rightbtn{
+    margin: 151px 20px;
+    z-index: 9;
+    cursor: pointer;
+    height: 170px;
+    width: 50px;
+}
+.carousel_box{
+    width: 4000px;
+    height: 472px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left:0px;
+    top:0px;
+    z-index: -1;
+}
+.carousel_img{
+    height:442px;
+    width:608px;
+    margin: 15px;
+    float: left;
+}
+.carousel_text{
+    color: #000000;
+    font-family: "微软雅黑", "Arial", "黑体";
+    font-size: 18px;
+    width: 203px;
+    letter-spacing: 2px;
+    margin-top: 130px;
+    margin-right: 100px;
+    margin-left: 35px;
+    line-height: 30px;
+    word-wrap:break-word;
 }
