@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>奥德公益</title>
     <link type="image/x-icon" href="" rel="icon">
-    <link href="../image/ico.png" rel="shortcut icon">
+    <link href="../image/ico/ico.png" rel="shortcut icon">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
@@ -19,40 +19,46 @@
     <link rel="stylesheet" href="Test.css" type="text/css">
 </head>
 <body>
-<nav class="nav_color" role="navigation" >
-    <div class="layout">
-        <ul class="nav navbar-nav">
-            <li><a href="" target="_self">首页</a></li>
-            <li class="line"></li>
-            <li><a href="" target="_self">活动报道</a></li>
-            <li class="line"></li>
-            <li><a href="" target="_self">精准助学</a></li>
-            <li class="line"></li>
-            <li><a href="" target="_self">往期回顾</a></li>
-            <li class="line"></li>
-            <li><a href="" target="_self">展望未来</a></li>
-        </ul>
-    </div>
-</nav>
-<footer>
-    <div class="foot">
-        <div class="foot_title">
-            <div style="margin-left: 500px">
-                <a class="left" href="" target="_self">首页</a>
-                <div class="left" style="border-right: 1px solid red;height: 20px"></div>
-                <a class="left" href="" target="_self">活动报道</a>
-                <a class="left" href="" target="_self">精准助学</a>
-                <a class="left" href="" target="_self">往期回顾</a>
-                <a class="left" href="" target="_self">展望未来</a>
-            </div>
-        </div>
-        <div class="foot_text">
-            Copyright 2012-2-13 版权所有 鲁ICP备13010814号<br>奥德科技有限公司
-        </div>
-    </div>
-</footer>
+<!-- 社会化分享 -->
+<ul>
+    <li><a href="javascript:var d=document,f='https://www.facebook.com/share',l=d.location,e=encodeURIComponent,p='.php?src=bm&v=4&i=1378393915&u='+e(l.href)+'&t='+e(d.title);1;try{if (!/^(.*\.)?facebook\.[^.]*$/.test(l.host))throw(0);share_internal_bookmarklet(p)}catch(z) {a=function() {if (!window.open(f+'r'+p,'sharer','toolbar=0,status=0,resizable=1,width=626,height=436'))l.href=f+p};if (/Firefox/.test(navigator.userAgent))setTimeout(a,0);else{a()}}void(0)"><i class="fa fa-facebook">0</i></a></li>
+
+    <li><a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('https://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1' );E=F.createElement('script');E.src='https://platform.twitter.com/bookmarklets/share.js?v=1' ;F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="fa fa-twitter">1</i></a></li>
+
+    <li><a href="#"><i class="fa fa-linkedin">2</i></a></li>
+    <li><a href="javascript:void(window.open('https://plus.google.com/share?ur\l='+encodeURIComponent(location), 'Share to Google+','width=600,height=460,menubar=no,location=no,status=no'));"><i class="fa fa-google-plus">3</i></a></li>
+    <li><a href="#"><i class="fa fa-youtube">4</i></a></li>
+</ul>
+
+<div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+</div>
+<script>
+    window._bd_share_config={
+        "common":{
+            "bdPopTitle":"您的自定义pop窗口标题",
+            "bdSnsKey":{},
+            "bdText":"此处填写自定义的分享内容",
+            "bdMini":"2",
+            "bdMiniList":false,
+            "bdPic":"http://localhost/centlight/public/attachment/201410/24/14/5449ef39574f5_282x220.jpg", /* 此处填写要分享图片地址 */
+            "bdStyle":"0",
+            "bdSize":"16"
+        },
+        "share":{}
+    };
+    with(document)0[
+        (getElementsByTagName('head')[0]||body).
+        appendChild(createElement('script')).
+            src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)
+        ];
+</script>
 </body>
-<script src="Test.js"></script>
 </html>
 
 

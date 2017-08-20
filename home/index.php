@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>奥德公益</title>
     <link type="image/x-icon" href="" rel="icon">
-    <link href="image/ico.png" rel="shortcut icon">
+    <link href="../image/ico/ico.png" rel="shortcut icon">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
@@ -22,198 +22,196 @@
 <!--头部-->
 <div class="layout header">
     <div id="logo" class="left" style="width: 400px">
-        <a><img src="../image/logo.png" alt="奥德公益"></a>
+        <a><img src="../image/ico/logo.png" alt="奥德公益"></a>
     </div>
-    <div id="search" class="left" style="width: 250px">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="请输入你要搜索的内容">
+    <img src="../image/ico/gongyi.png" width="160px" style="margin-top: 10px;margin-left: 100px">
+    <div id="search" class="right">
+        <div class="input-group"  style="width: 300px">
+            <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px">
             <span class="input-group-btn" id="searchbtn">
-                <button id="searchbtn" class="btn btn-default" type="button">
-                    <span class="glyphicon glyphicon-search"> </span>
+                <button id="searchbtn" class="btn btn-default" type="button" style="background-color: #979797">
+                    <span class="glyphicon glyphicon-search"></span>
                 </button>
             </span>
         </div>
-    </div>
-    <div id="login_out" class="right" style="width: 300px;margin-left: 30px">
-        <img src="../image/gongyi.png" width="150px">
-        <button type="button" class="btn btn-default btn-sm btn_color">登录</button>
-        <button type="button" class="btn btn-default btn-sm btn_color">注册</button>
     </div>
 </div>
 <!--标题栏-->
 <nav class="nav_color" role="navigation" >
     <div class="layout">
         <ul class="nav navbar-nav">
-            <li><a href="" target="_self">首页</a></li>
+            <li><a href="index.php#" target="_self">首页</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self">活动报道</a></li>
+            <li><a href="index.php#avtivity" target="_self">活动报道</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self">精准助学</a></li>
+            <li><a href="index.php#schoolhelp" target="_self">精准助学</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self">往期回顾</a></li>
+            <li><a href="index.php#pastactivity" target="_self">往期回顾</a></li>
             <li class="line"></li>
-            <li><a href="" target="_self">展望未来</a></li>
+            <li><a href="index.php#future" target="_self">展望未来</a></li>
         </ul>
     </div>
 </nav>
 <div>
-<!--活动报道-->
-<section>
-    <div class="layout" style="height: 660px">
-        <div class="left banner" style="width: 670px;height: 360px">
-            <div class="img_box">
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban0.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+    <!--活动报道-->
+    <a name="avtivity"></a>
+    <section>
+        <div class="layout" style="height: 660px">
+            <div class="left banner" style="width: 670px;height: 360px">
+                <div class="img_box">
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban0.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>活动</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban1.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+                    </div>
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban1.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>视频</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban2.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+                    </div>
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban2.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>捐助</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban3.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+                    </div>
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban3.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>公益</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban4.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+                    </div>
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban4.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>资讯</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-                <div class="left display" style="width: 670px;height: 360px">
-                    <a href="javascript:;"><img src="../image/ban0.png" alt="" width="670px " height="360px"></a>
-                    <span class="banner_shadow">
+                    </div>
+                    <div class="left display" style="width: 670px;height: 360px">
+                        <a href="javascript:;"><img src="../image/banner/ban0.png" alt="" width="670px " height="360px"></a>
+                        <span class="banner_shadow">
                     <em>活动</em>
                     <a href="javascript:;" target="_blank">详细内容介绍</a>
                 </span>
-                </div>
-            </div>
-        </div>
-        <div class="right" style="width: 320px;height: 360px">
-            <img src="../image/totaldata.png">
-        </div>
-        <div class="left" style="width: 670px;height: 300px">
-            <div class="" style="width: 670px;height: 100px;margin-top: 10px">
-                <div id="banner_leftbtn" class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
-                    <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_leftarrow.png">
-                </div>
-                <div class="left banner" style="width: 610px;height: 100px">
-                    <div class="img_box_tumb">
-                        <img src="../image/ban0.png" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">
-                        <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban3.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban4.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban0.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
-                        <img src="../image/ban3.png" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
                     </div>
                 </div>
-                <div id="banner_rightbtn" class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
-                    <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner_rightarrow.png">
-                </div>
             </div>
-            <div style="width: 670px;height: 180px;margin-top: 10px">
-                <div class="activityshow">
-                    <span>活动</span>
-                    <a href="javascript:;" style="padding: 0px"><b>活动内容介绍</b></a>
+            <div class="right" style="width: 320px;height: 360px">
+                <img src="../image/ico/totaldata.png">
+            </div>
+            <div class="left" style="width: 670px;height: 300px">
+                <div class="" style="width: 670px;height: 100px;margin-top: 10px">
+                    <div id="banner_leftbtn" class="left img_center" style="width: 20px;height: 100px;margin-right: 10px">
+                        <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner/banner_leftarrow.png">
+                    </div>
+                    <div class="left banner" style="width: 610px;height: 100px">
+                        <div class="img_box_tumb">
+                            <img src="../image/banner/ban0.png" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">
+                            <img src="../image/banner/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban3.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban4.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban0.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban1.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban2.png" alt="" style="margin: 0px 3px" height="100px" width="145">
+                            <img src="../image/banner/ban3.png" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
+                        </div>
+                    </div>
+                    <div id="banner_rightbtn" class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
+                        <span style="height: 100%;vertical-align: middle;display: inline-block"></span><img src="../image/banner/banner_rightarrow.png">
+                    </div>
                 </div>
-                <div>
-                    <a style="float: left"><img src="../image/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
+                <div style="width: 670px;height: 180px;margin-top: 10px">
+                    <div class="activityshow">
+                        <span>活动</span>
+                        <a href="javascript:;" style="padding: 0px"><b>活动内容介绍</b></a>
+                    </div>
                     <div>
-                        <div class="activitycontext">
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" style="color: #000000">活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
-                                    内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</a></p>
-                        </div>
-                        <div class="right" style="bottom: 0px">
-                            <a href="javascript:;"><img src="../image/xiangqing.png"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="right count">
-            <div style="background-color: rgb(245,67,55);height: 50px">
-                <span class="title">爱心捐赠·奥德悦生活</span>
-            </div>
-            <div style="border: 1px solid #979797;width: 290px;height: 240px">
-                <div class="showbox" style="">
-                    <div class="left" style="height: 165px;width: 159px">
-                        <div >
-                            <div class="left heart" style="margin-left: 46px">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart_active.png" alt="">
-                                <img src="../image/heart_active.png" alt="">
-                            </div>
-                            <div class="right heart" style="margin-right: 46px">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                                <img src="../image/heart.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right" style="height: 165px;width: 89px">
+                        <a style="float: left"><img src="../image/activity/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
                         <div>
-                            <div class="man left">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
-                                <img src="../image/people_active.png">
-                                <img src="../image/people_active.png">
+                            <div class="activitycontext">
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" style="color: #000000">活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动
+                                        内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动内容介绍活动</a></p>
                             </div>
-                            <div class="man left">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
-                                <img src="../image/people.png">
+                            <div class="right" style="bottom: 0px">
+                                <a href="javascript:;"><img src="../image/ico/xiangqing.png"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="width: 250px;height: 70px;margin-left: 20px">
-                    <div class="left context" style="width: 160px;height: 70px">
-                        <span style="color: red">100,000/500,000</span>
-                        <P style="color: #000000">累计爱心</P>
+            </div>
+            <div class="right count">
+                <div style="background-color: rgb(245,67,55);height: 50px">
+                    <span class="title">爱心捐赠·奥德悦生活</span>
+                </div>
+                <div style="border: 1px solid #979797;width: 290px;height: 240px">
+                    <div class="showbox" style="">
+                        <div class="left" style="height: 165px;width: 159px">
+                            <div >
+                                <div class="left heart" style="margin-left: 46px">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart_active.png" alt="">
+                                    <img src="../image/ico/heart_active.png" alt="">
+                                </div>
+                                <div class="right heart" style="margin-right: 46px">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                    <img src="../image/ico/heart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right" style="height: 165px;width: 89px">
+                            <div>
+                                <div class="man left">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people_active.png">
+                                    <img src="../image/ico/people_active.png">
+                                </div>
+                                <div class="man left">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                    <img src="../image/ico/people.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="right context" style="width: 90px;height: 70px">
-                        <span style="color: red">10/50</span>
-                        <P style="color: #000000">捐赠人数</P>
+                    <div style="width: 250px;height: 70px;margin-left: 20px">
+                        <div class="left context" style="width: 160px;height: 70px">
+                            <span style="color: red">100,000/500,000</span>
+                            <P style="color: #000000">累计爱心</P>
+                        </div>
+                        <div class="right context" style="width: 90px;height: 70px">
+                            <span style="color: red">10/50</span>
+                            <P style="color: #000000">捐赠人数</P>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <!--精准助学-->
+    <a name="schoolhelp"></a>
     <div class="part">
         <!--标题栏-->
         <div class="layout">
             <div class="title">
                 <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
-                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                    <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>精准助学</b></span>
                 <a class="right" href="javascript:;">更多></a>
@@ -316,12 +314,13 @@
         </div>
     </div>
     <!--往期回顾-->
+    <a name="pastactivity"></a>
     <div class="part">
         <!--标题-->
         <div class="layout">
             <div class="title">
                 <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
-                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                    <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>往期回顾</b></span>
                 <a class="right" href="javascript:;">更多></a>
@@ -366,26 +365,49 @@
             </div>
         </div>
     </div>
+
     <!--展望未来-->
+    <a name="future"></a>
     <div class="part">
         <div class="layout">
             <div class="title">
                 <div class="left" style="width: 25px;height: 66px;border-bottom: 1px solid red">
-                    <img class="left" src="../image/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
+                    <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>展望未来</b></span>
                 <a class="right" href="javascript:;">更多></a>
             </div>
         </div>
         <div style="width: 983px;height: 387px">
-            <a><img src="../image/funture.png" width="983px" height="387px"></a>
+            <a><img class="left" src="../image/funture/funture.png" width="983px" height="387px"></a>
+            <div class="future_text">
+                <span><b>联系我们</b></span><br>
+                主办：公益慈善基金会&nbsp;/&nbsp;奥德集团有限公司<br>
+                支持：奥德科技有限公司<br>
+                地址：山东·临沂
+            </div>
         </div>
     </div>
 </div>
-    <!--底部-->
-    <footer>
-
-    </footer>
+<!--底部-->
+<div class="foot">
+    <div class="foot_title">
+        <div style="padding-top: 20px">
+            <a class="left" href="index.php#" target="_self">首页</a>
+            <div class="left" style="border-right: 1px solid #979797;height: 15px;margin-top: 2px"></div>
+            <a class="left" href="index.php#avtivity" target="_self">活动报道</a>
+            <div class="left" style="border-right: 1px solid #979797;height: 15px;margin-top: 2px"></div>
+            <a class="left" href="index.php#schoolhelp" target="_self">精准助学</a>
+            <div class="left" style="border-right: 1px solid #979797;height: 15px;margin-top: 2px"></div>
+            <a class="left" href="index.php#pastactivity" target="_self">往期回顾</a>
+            <div class="left" style="border-right: 1px solid #979797;height: 15px;margin-top: 2px"></div>
+            <a class="left" href="index.php#future" target="_self">展望未来</a>
+        </div>
+    </div>
+    <div class="foot_text">
+        Copyright 2012-2-13 版权所有 鲁ICP备13010814号<br>奥德科技有限公司
+    </div>
+</div>
 <script src="index.js"></script>
 </body>
 </html>

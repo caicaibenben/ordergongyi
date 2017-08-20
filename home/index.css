@@ -38,7 +38,7 @@
     background: #c52513;
 }
 .nav .line {
-    background: url(../image/line.png) center no-repeat;
+    background: url(../image/ico/line.png) center no-repeat;
     height: 25px;
     padding: 15px 15px;
     width: 1px;
@@ -109,7 +109,7 @@
     margin-bottom: 15px;
 }
 .activityshow span{
-    background: url(../image/biaotiblue.png) repeat-y;
+    background: url(../image/ico/biaotiblue.png) repeat-y;
     color: #fff;
     display: block;
     font-size: 14px;
@@ -300,4 +300,51 @@
     margin-left: 35px;
     line-height: 30px;
     word-wrap:break-word;
+}
+.future_text{
+    width: 350px;
+    height: 140px;
+    font-size: 18px;
+    font-family: "微软雅黑", "Arial", "黑体";
+    color: rgb(127, 127, 127);
+    line-height: 30px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 550px;
+}
+.future_text span{
+    font-size: 22px;
+    font-family: "微软雅黑", "Arial", "黑体";
+    color: rgb(67, 67, 67);
+    line-height: 30px;
+}
+.foot{
+    height: 190px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(199,199,199);
+}
+.foot_title{
+    margin: 20px auto;
+    height: 30px;
+    width: 460px;
+    text-align: center;
+    padding: 20px auto;
+}
+.foot_title a{
+    height: 30px;
+    font-size: 14px;
+    font-family: "微软雅黑", "Arial", "黑体";
+    margin: 0px 20px;
+    color: #979797;
+    text-decoration: none;
+}
+.foot_text{
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: "微软雅黑", "Arial", "黑体";
+    font-size: 14px;
+    color: #979797;
+    line-height: 25px;
 }
