@@ -1,0 +1,30 @@
+.article_share_box{
+    position: fixed;
+    width: 40px;
+    height: 200px;
+    z-index: 50;
+    right: 100px;
+    bottom: 90px;
+    top: auto;
+    border: 1px solid red;
+}
+.article_share_box ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.article_share_box ul li{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: #fafafa;
+}
+.article_share_box img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: #fafafa;
+    float: left;
+}

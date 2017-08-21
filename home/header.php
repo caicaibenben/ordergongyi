@@ -17,53 +17,7 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="commom.css" type="text/css">
-    <style>
-        .layout{
-            width: 1000px;
-            margin: 0px auto;
-        }
-        .header{
-            margin: 0px auto;
-            height: 80px;
-            padding-top: 15px;
-        }
-        .left{
-            float: left;
-        }
-        .right{
-            float: right;
-        }
-        .nav_color{
-            background-color: #f32613;
-            height: 35px;
-            margin-bottom: 10px;
-            position: relative;
-            min-height: 35px;
-            border: 1px solid #f32613;
-        }
-        .navbar-nav ul{
-            height: 33px;
-            padding: 0px 10px;
-        }
-        .navbar-nav>li>a{
-            font-size:large;
-            font-family: "Microsoft YaHei UI","Arial";
-            color: white;
-            padding: 6px 15px 7px 15px;
-        }
-        .navbar-nav>li>a:hover{
-            background: #c52513;
-        }
-        .navbar-nav>li>a:active{
-            background: #c52513;
-        }
-        .nav .line {
-            background: url(../image/ico/line.png) center no-repeat;
-            height: 25px;
-            padding: 15px 15px;
-            width: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="article.css" type="text/css">
 </head>
 <body>
 <!--头部-->
@@ -99,8 +53,4 @@
         </ul>
     </div>
 </nav>
-<?php
- include "footer.php";
-?>
-</body>
-</html>
+

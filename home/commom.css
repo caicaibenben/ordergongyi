@@ -46,8 +46,8 @@
 .display{
     position: relative;
 }
-
 .foot{
+    display: block;
     height: 190px;
     width: 100%;
     margin-top: 20px;
