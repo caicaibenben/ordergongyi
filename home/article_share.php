@@ -1,31 +1,41 @@
-<!doctype html>
-<html lang="en-zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="article_share.css">
-</head>
-<body>
+
     <!--文章分享-->
-    <div class="article_share_box bdsharebuttonbox">
-        <ul>
-            <li><a ><img src="../image/share_ico/weixinzone.png" data-cmd="qzone"></a></li>
-            <li><a data-cmd="qzone"><img src="../image/share_ico/qqzone.png"></a></li>
-            <li><a data-cmd="qzone"><img src="../image/share_ico/qqfriend.png"></a></li>
-            <li><a data-cmd="qzone"><img src="../image/share_ico/weibo.png"></a></li>
-            <li><a data-cmd="qzone"><img src="../image/share_ico/douban.png"></a></li>
-        </ul>
+    <div id="article_share_box" class="article_share_box">
+        <div class="bdsharebuttonbox ">
+            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">
+            </a>
+            <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">
+            </a>
+            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">
+            </a>
+            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">
+            </a>
+            <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网">
+            </a>
+        </div>
     </div>
     <script>
-        //以下为js加载部分
-        with(document)0[
-            (getElementsByTagName('head')[0]||body).
-            appendChild(createElement('script')).
-                src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)
-            ];
+        var imgScrs="";
+        var imgs = $(".article_img img");
+        for(var i=0;i<imgs.length;i++){
+            imgScrs+=imgs [i].src;
+            if(i+1<imgs.length)imgScrs+=";";
+        }
+        console.log($(".article_img img").attr("src"));
+        console.log(imgScrs);
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdUrl":location.href,
+                "bdText": $(".article_title").text()+"@"+$("title").text(),
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic":imgScrs,
+                "bdStyle": "0",
+                "bdSize": "16"
+            },
+            "share": {}
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ ( - new Date() / 36e5)];
     </script>
-</body>
-</html>
+

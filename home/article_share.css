@@ -1,4 +1,4 @@
-.article_share_box{
+#article_share_box{
     position: fixed;
     width: 40px;
     height: 200px;
@@ -6,25 +6,25 @@
     right: 100px;
     bottom: 90px;
     top: auto;
-    border: 1px solid red;
 }
-.article_share_box ul{
+#article_share_box a{
+    width: 40px;
+    height: 40px;
     padding: 0px;
     margin: 0px;
-    list-style-type: none;
 }
-.article_share_box ul li{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border: 1px solid red;
-    background-color: #fafafa;
+#article_share_box a.bds_weixin{
+    background: url(../image/share_ico/weixinzone.png) no-repeat;
 }
-.article_share_box img{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border: 1px solid red;
-    background-color: #fafafa;
-    float: left;
+#article_share_box a.bds_sqq{
+    background: url(../image/share_ico/qqfriend.png) no-repeat;
+}
+#article_share_box a.bds_qzone{
+    background: url(../image/share_ico/qqzone.png) no-repeat;
+}
+#article_share_box a.bds_tsina{
+    background: url(../image/share_ico/weibo.png) no-repeat;
+}
+#article_share_box a.bds_douban{
+    background: url(../image/share_ico/douban.png) no-repeat;
 }
