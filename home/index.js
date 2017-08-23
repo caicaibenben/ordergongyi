@@ -166,10 +166,9 @@ $(document).ready(function () {
 	// });
 	$(".carousel_leftbtn").on("click",function () {
 		imgCount_carousel--;
-
 		if(imgCount_carousel<0){
-			imgCount_carousel=2;
-			$('.carousel_box').css({'left':-2949});
+			imgCount_carousel=4;
+			$('.carousel_box').css({'left':-4915});
 		}
 		$(".carousel_box").stop().animate({'left':-imgCount_carousel*imgWidthEach_carousel},1000);
 	});

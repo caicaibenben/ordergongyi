@@ -1,7 +1,7 @@
 
     <!--文章分享-->
     <div id="article_share_box" class="article_share_box">
-        <div class="bdsharebuttonbox ">
+        <div class="bdsharebuttonbox">
             <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">
             </a>
             <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">
@@ -23,6 +23,7 @@
         }
         console.log($(".article_img img").attr("src"));
         console.log(imgScrs);
+        console.log(location.href);
         window._bd_share_config = {
             "common": {
                 "bdSnsKey": {},
@@ -36,6 +37,15 @@
             },
             "share": {}
         };
-        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ ( - new Date() / 36e5)];
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='./static/api/js/share.js'];
     </script>
+    <!--微信公众号+回到顶部-->
+    <div id="weixin_top" class="weixin_top">
+        <div class="weixin_box">
+            <img src="../image/share_ico/weixin.png">
+        </div>
+        <div class="top_box">
+            <a href="#"><img src="../image/share_ico/top.png"></a>
+        </div>
+    </div>
 

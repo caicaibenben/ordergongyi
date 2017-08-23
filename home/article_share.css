@@ -4,8 +4,7 @@
     height: 200px;
     z-index: 50;
     right: 100px;
-    bottom: 90px;
-    top: auto;
+    top: 120px;
 }
 #article_share_box a{
     width: 40px;
@@ -27,4 +26,26 @@
 }
 #article_share_box a.bds_douban{
     background: url(../image/share_ico/douban.png) no-repeat;
+}
+.weixin_top{
+    width: 120px;
+    height: 197px;
+    position: fixed;
+    z-index: 50;
+    right: 60px;
+    bottom: 140px;
+}
+.weixin_top .weixin_box{
+    width: 120px;
+    height: 147px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.weixin_top .top_box{
+    width: 120px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
 }
