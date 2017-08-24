@@ -5,7 +5,7 @@ $().ready(function () {
 	var manCount=0;
 	$.ajax({
 		type: "GET",
-		url: 'http://10.20.1.36/mobile/index.php?act=member_love&op=get_love_log',
+		url: 'https://www.odcmall.com/mobile/index.php?act=member_love&op=get_love_log',
 		data: {},
 		dataType: "jsonp",
 		success: function(result){
