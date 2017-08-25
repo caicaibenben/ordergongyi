@@ -4,7 +4,6 @@
     header("Location: login.html");
     exit;
   }
-
 ?>
 <!doctype html>
 <html lang="zh-CN">

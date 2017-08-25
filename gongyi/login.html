@@ -22,11 +22,11 @@
     <script>window.location.href = 'upgrade-browser.html';</script>
     <![endif]-->
 </head>
-
 <body class="user-select">
 <div class="container">
-    <div class="siteIcon"><img src="images/icon/icon.png" alt="" data-toggle="tooltip" data-placement="top"
-                               title="欢迎使用异清轩博客管理系统" draggable="false"/></div>
+    <div class="siteIcon">
+        <img src="images/icon/icon.png" alt="" data-toggle="tooltip" data-placement="top" title="欢迎使用异清轩博客管理系统" draggable="false"/>
+    </div>
     <form action="login.php" method="post" autocomplete="off" class="form-signin">
         <h2 class="form-signin-heading">管理员登录</h2>
         <label for="userName" class="sr-only">用户名</label>
@@ -35,7 +35,7 @@
         <label for="userPwd" class="sr-only">密码</label>
         <input type="password" id="userPwd" name="userpwd" class="form-control" placeholder="请输入密码" required
                autocomplete="off" maxlength="18">
-        <button class="btn btn-lg btn-primary btn-block" type="submit" id="signinSubmit">登录</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" id="submit">登录</button>
     </form>
     <div class="footer">
         <p><a href="index.php" data-toggle="tooltip" data-placement="left" title="不知道自己在哪?">回到后台 →</a></p>
@@ -50,7 +50,7 @@
     $('.siteIcon img').click(function () {
         window.location.reload();
     });
-    $('#signinSubmit').click(function () {
+    $('#submit').click(function () {
         if ($('#userName').val() === '') {
             alert('用户名不能为空');
         } else if ($('#userPwd').val() === '') {
