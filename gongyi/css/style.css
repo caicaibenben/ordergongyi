@@ -188,11 +188,11 @@ textarea::-webkit-scrollbar-thumb {
 	font-family: TaurusNormal;
 	font-size: 26px;
 	line-height: 26px;
-	color: #777;
+	color: #fff;
 	margin-left: 0 !important;
 }
 .navbar>.container-fluid .navbar-brand:hover {
-	color:#3399CC;
+	color:#fff;
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -211,6 +211,9 @@ textarea::-webkit-scrollbar-thumb {
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
 }
 /*侧边导航样式*/
 .sidebar {
