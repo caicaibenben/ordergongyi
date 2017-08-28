@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>异清轩博客管理系统</title>
+    <title>奥德悦生活·公益平台</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -73,50 +73,52 @@ if (!isset($_SESSION['username'])) {
         </nav>
     </header>
     <div class="row">
-        <aside class="col-sm-2 col-md-1 col-lg-1 sidebar" style="border: 1px solid red">
+        <aside class="sidebar">
+            <!--侧边栏标题-->
+            <div class="leftnav_title">
+                <span class="glyphicon glyphicon-list left"></span><h4 class="left" style="padding-left: 10px">栏目管理</h4>
+            </div>
+            <!--侧边栏分类标题-->
+            <div class="leftnav_subtitle">
+                <span class="glyphicon glyphicon-bookmark left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">文章数据</h4>
+            </div>
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="report.html" target="right">报告</a></li>
+                <li><a href="report.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
+                <li><a href="article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
+                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
+                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>
             </ul>
+            <!--侧边栏分类标题-->
+            <div class="leftnav_subtitle">
+                <span class="glyphicon glyphicon-cog left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">栏目设置</h4>
+            </div>
+
             <ul class="nav nav-sidebar">
-                <li><a href="article.html" target="right">文章</a></li>
-                <li><a href="notice.html">公告</a></li>
-                <li><a href="comment.html">评论</a></li>
-                <li><a data-toggle="tooltip" data-placement="bottom" title="网站暂无留言功能">留言</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>活动报道</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>精准助学</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>往期回顾</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>展望未来</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>图标更换</a></li><!--网站图标及二维码-->
             </ul>
+            <!--侧边栏分类标题-->
+            <div class="leftnav_subtitle">
+                <span class="glyphicon glyphicon-wrench left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">其他设置</h4>
+            </div>
             <ul class="nav nav-sidebar">
-                <li><a href="category.html">栏目</a></li>
-                <li><a class="dropdown-toggle" id="otherMenu" data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">其他</a>
-                    <ul class="dropdown-menu" aria-labelledby="otherMenu">
-                        <li><a href="flink.html">友情链接</a></li>
-                        <li><a data-toggle="modal" data-target="#areDeveloping">访问记录</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li><a class="dropdown-toggle" id="userMenu" data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">用户</a>
-                    <ul class="dropdown-menu" aria-labelledby="userMenu">
-                        <li><a data-toggle="modal" data-target="#areDeveloping">管理用户组</a></li>
-                        <li><a href="manage-user.html">管理用户</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="loginlog.html">管理登录日志</a></li>
-                    </ul>
-                </li>
-                <li><a class="dropdown-toggle" id="settingMenu" data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">设置</a>
-                    <ul class="dropdown-menu" aria-labelledby="settingMenu">
-                        <li><a href="setting.html">基本设置</a></li>
-                        <li><a href="readset.html">阅读设置</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a data-toggle="modal" data-target="#areDeveloping">安全配置</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="disabled"><a>扩展菜单</a></li>
-                    </ul>
-                </li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>用户管理</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>更改信息</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>登录日志</a></li>
+                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>基本设置</a></li>
             </ul>
         </aside>
-        <div class="col-sm-10 col-sm-offset-2 col-md-11 col-lg-11 col-md-offset-1 main" id="main">
+        <div class="main" id="main">
+            <div class="main_title">
+                <ul>
+                    <li><a><span></span>首页</a></li>
+                    <li><a>网站设置</a></li>
+                    <li><a>语言：中文</a></li>
+                </ul>
+            </div>
             <iframe src="report.html" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()">
             </iframe>
         </div>
@@ -150,6 +152,6 @@ if (!isset($_SESSION['username'])) {
     }
 </script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/admin-scripts.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>

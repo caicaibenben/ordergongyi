@@ -1,9 +1,10 @@
 @charset "utf-8";
+/*主题设置*/
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, button, input, fieldset, legend, input, textarea, p, blockquote, th, td, article, aside, details, figcaption, figure, #footer, #header, hgroup, menu, nav, section {
 	margin: 0;
 	padding: 0;
 }
-body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, button, input, textarea, p, span, th, td, article, aside, nav, section, img, a, table, tbody, tr, label {
+body, dl, dt, dd, ol, li, h1, h2, h3, h4, h5, h6, form, button, input, textarea, p, span, th, td, article, aside, nav, section, img, a, table, tbody, tr, label {
 	outline: none;
 	transition: all 0.30s ease-in-out;
 	-webkit-transition: all 0.30s ease-in-out;
@@ -22,6 +23,9 @@ body {
 	background-color: #EEE;
 	overflow-x: hidden;
 	padding-top: 50px;
+}
+.left{
+	float: left;
 }
 /*页面滚动条*/
 html::-webkit-scrollbar {
@@ -153,8 +157,8 @@ color:#FFF;
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
     min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 8px;
@@ -238,42 +242,71 @@ textarea::-webkit-scrollbar-thumb {
 @media (min-width: 768px) {
 .sidebar {
 	position: fixed;
-	top: 50px;
+	width: 15%;
+	top: 70px;
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
 	display: block;
-	padding: 20px;
 	overflow-x: hidden;
 	overflow-y: auto;
 	background-color: #f8f8f8;
-	border-right: 1px solid #eee;
+	border-right: 1px solid rgb(156, 216, 217);
 }
 }
-.nav-sidebar {
-	margin-right: -21px;
-	margin-bottom: 20px;
-	margin-left: -20px;
+.leftnav_title {
+	height: 50px;
+	background: url(../images/background.jpg) no-repeat 0 -1000px;
+	color: #FFF;
+	font-size: 17px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-top: 15px;
 }
-.nav-sidebar li a:hover {
-	padding-left: 30px;
+.leftnav_subtitle {
+	height: 35px;
+	background: #fff;
+	color: #000;
+	font-size: 15px;
+	line-height: 35px;
+	padding-left: 10px;
+	vertical-align: middle;
+	border-bottom: 1px solid rgb(156, 216, 217);
+	border-top: 1px solid rgb(156, 216, 217);
+}
+.leftnav_subtitle:hover{
+	color: #3399CC;
 }
 .nav-sidebar > li > a {
-	padding-right: 20px;
-	padding-left: 20px;
+	padding: 5px 0px 5px 30px;
 }
-.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
-	color: #fff;
-	background-color: #3399CC;
+.nav-sidebar >li  > a:hover, .nav-sidebar > li> a:focus {
+	color: #3399CC;
+	padding-left: 40px;
 }
 /*内容主体样式*/
 .main {
-	padding:15px 8px;
+	width: 85%;
+	padding:0px 0px;
+	float: right;
+	margin-top: 20px;
 }
-
+.main .main_title{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid rgb(156, 216, 217);
+	display: inline-block;
+}
+.main_title ul li{
+	list-style-type: none;
+}
 @media (max-width: 768px) {
 .main {
-	padding:5px 0px;
+	padding:0px 0px;
+	width: 100%;
+	margin-top: 20px;
 }
 }
 .main .page-header {
