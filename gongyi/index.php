@@ -1,9 +1,9 @@
 <?php
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("Location: login.html");
-    exit;
-}
+//session_start();
+//if (!isset($_SESSION['username'])) {
+//    header("Location: login.html");
+//    exit;
+//}
 ?>
 <!doctype html>
 <html lang="zh-CN">
@@ -80,7 +80,7 @@ if (!isset($_SESSION['username'])) {
             </div>
             <!--侧边栏分类标题-->
             <div class="leftnav_subtitle">
-                <span class="glyphicon glyphicon-bookmark left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">文章数据</h4>
+                <span class="glyphicon glyphicon-book left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">文章数据</h4>
             </div>
             <ul class="nav nav-sidebar">
                 <li><a href="report.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
@@ -114,8 +114,10 @@ if (!isset($_SESSION['username'])) {
         <div class="main" id="main">
             <div class="main_title">
                 <ul>
-                    <li><a><span></span>首页</a></li>
+                    <li><a><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                    <li><a style="color: #cdcdcd">/</a></li>
                     <li><a>网站设置</a></li>
+                    <li><a style="color: #cdcdcd">/</a></li>
                     <li><a>语言：中文</a></li>
                 </ul>
             </div>

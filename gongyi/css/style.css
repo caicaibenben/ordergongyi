@@ -293,13 +293,15 @@ textarea::-webkit-scrollbar-thumb {
 	float: right;
 	margin-top: 20px;
 }
-.main .main_title{
+#main .main_title{
 	width: 100%;
 	height: 40px;
+	line-height: 40px;
 	border-bottom: 1px solid rgb(156, 216, 217);
-	display: inline-block;
 }
 .main_title ul li{
+	float: left;
+	margin-left: 10px;
 	list-style-type: none;
 }
 @media (max-width: 768px) {
