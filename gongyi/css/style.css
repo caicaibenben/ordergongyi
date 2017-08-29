@@ -547,7 +547,7 @@ input[type=checkbox], input[type=radio] {
 /*增加文章功能盒子*/
 .add-article-box{
 	background:#FFF;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	-moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
 	-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
 	box-shadow: 0px 1px 5px rgba(0,0,0,.1);
