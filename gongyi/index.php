@@ -83,8 +83,8 @@
                 <span class="glyphicon glyphicon-book left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">文章数据</h4>
             </div>
             <ul class="nav nav-sidebar">
-                <li><a href="report.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
-                <li><a href="article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
+                <li><a href="article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
+                <li><a href="add-article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
                 <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
                 <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>
             </ul>
@@ -121,7 +121,7 @@
                     <li><a>语言：中文</a></li>
                 </ul>
             </div>
-            <iframe src="report.html" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()">
+            <iframe src="report.html" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()" class="iframe_set">
             </iframe>
         </div>
     </div>
