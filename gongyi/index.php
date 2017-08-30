@@ -121,7 +121,7 @@
                     <li><a>语言：中文</a></li>
                 </ul>
             </div>
-            <iframe src="report.html" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()" class="iframe_set">
+            <iframe src="report.html" sandbox="allow-same-origin allow-forms allow-scripts allow-popups allow-modals" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()" class="iframe_set">
             </iframe>
         </div>
     </div>
