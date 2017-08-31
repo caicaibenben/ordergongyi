@@ -1,9 +1,9 @@
 <?php
-//session_start();
-//if (!isset($_SESSION['username'])) {
-//    header("Location: login.html");
-//    exit;
-//}
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: login.html");
+    exit;
+}
 ?>
 <!doctype html>
 <html lang="zh-CN">
