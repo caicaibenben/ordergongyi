@@ -83,8 +83,8 @@ if (!isset($_SESSION['username'])) {
                 <span class="glyphicon glyphicon-book left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">文章数据</h4>
             </div>
             <ul class="nav nav-sidebar">
-                <li><a href="article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
-                <li><a href="add-article.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
+                <li><a href="articlelist.php" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
+                <li><a href="add_modify_article.php?act=add" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
                 <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
                 <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>
             </ul>
