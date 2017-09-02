@@ -31,6 +31,7 @@
             <!--<li><a href="add_modify_article.php" type="button" class="btn btn-">增加文章</a></li>-->
         <!--</ol>-->
         <!--<h3><span>文章列表</span></h3>-->
+      <form>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead>
@@ -46,7 +47,7 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="0"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -55,7 +56,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="1"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -64,7 +65,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="2"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -73,7 +74,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="3"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -82,7 +83,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="4"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -91,7 +92,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="5"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -100,7 +101,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="6"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -109,7 +110,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="7"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -118,7 +119,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="8"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -127,7 +128,7 @@
                     <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
                 </tr>
                 <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox[]" value=""/></td>
+                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="9"/></td>
                     <td>000001</td>
                     <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
                     <td class="hidden-sm hidden-xs">这个是栏目</td>
@@ -138,15 +139,18 @@
                 </tbody>
             </table>
         </div>
+      </form>
         <footer class="message_footer">
             <nav>
                 <div class="btn-toolbar operation hidden-xs" role="toolbar">
-                    <div class="btn-group" role="group"><a class="btn btn-default" onClick="select()">全选</a> <a
-                            class="btn btn-default" onClick="reverse()">反选</a> <a class="btn btn-default"
-                                                                                  onClick="noselect()">不选</a></div>
                     <div class="btn-group" role="group">
-                        <button type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
-                                title="删除全部选中" name="checkbox_delete" id="checkbox_delete">删除
+                        <a class="btn btn-default" onClick="select()">全选</a>
+                        <a class="btn btn-default" onClick="reverse()">反选</a>
+                        <a class="btn btn-default" onClick="noselect()">不选</a>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
+                                title="删除全部选中" id="checkbox_delete">删除
                         </button>
                     </div>
                 </div>
@@ -164,4 +168,5 @@
     </form>
 </section>
 </body>
+<script src="./js/article_handler_down.js"></script>
 </html>

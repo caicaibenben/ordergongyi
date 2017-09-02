@@ -138,6 +138,6 @@
 <script src="./ueditor/ueditor.all.min.js"></script>
 <script src="./ueditor/lang/zh-cn/zh-cn.js"></script>
 <!--<script id="uploadEditor" type="text/plain" style="display:none;"></script>-->
-<script src="js/article_handler.js"></script>
+<script src="js/article_handler_up.js"></script>
 </body>
 </html>

@@ -26,10 +26,12 @@ $().ready(function () {
 					// editor准备好之后才可以使用
 					ueditor.setContent(article[6]);
 				});
-				console.log("提交成功");
-			}else{
+				console.log("文章加载成功");
+			}else if(status=='success'){
 				console.log(status+data);
-				console.log("ID查询失败");
+				console.log("ID查询无结果");
+			}else{
+				console.log("status fail");
 			}
 		}
 	);

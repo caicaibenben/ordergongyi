@@ -24,19 +24,45 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gongyi/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="79">
+              <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articlelist.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="articlelist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="113" column="50" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+            <state relative-caret-position="326">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_handler_down.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_down.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_handle_down.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongyi/article_handle_down.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <marker date="1504345366992" expanded="true" signature="198:228" ph="select count... articles" />
+                <marker date="1504345366992" expanded="true" signature="198:307" ph="select count... articles" />
+                <marker date="1504345366992" expanded="true" signature="739:791" ph="select * fro... articles" />
+                <marker date="1504345366992" expanded="true" signature="739:792" ph="select * fro... articles" />
+                <marker date="1504345366992" expanded="true" signature="739:802" ph="select * fro... articles" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +123,11 @@
         <option value="$PROJECT_DIR$/gongyi/getarticle.php" />
         <option value="$PROJECT_DIR$/gongyi/js/get_modify_article.js" />
         <option value="$PROJECT_DIR$/gongyi/add_modify_article.php" />
-        <option value="$PROJECT_DIR$/gongyi/index.php" />
         <option value="$PROJECT_DIR$/gongyi/articlelist.php" />
+        <option value="$PROJECT_DIR$/gongyi/index.php" />
+        <option value="$PROJECT_DIR$/gongyi/js/article_handler_up.js" />
+        <option value="$PROJECT_DIR$/gongyi/article_handle_down.php" />
+        <option value="$PROJECT_DIR$/gongyi/js/article_handler_down.js" />
       </list>
     </option>
   </component>
@@ -149,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,14 +226,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,17 +373,18 @@
       <workItem from="1504172551358" duration="178000" />
       <workItem from="1504224079496" duration="618000" />
       <workItem from="1504226217418" duration="19040000" />
+      <workItem from="1504312653397" duration="24442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336751000" />
+    <option name="totallyTimeSpent" value="361193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16108248" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16301547" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231198" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,13 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/article_share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -545,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/update-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/新建文件夹/add-article.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -563,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/css/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -594,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="548" column="20" selection-start-line="548" selection-start-column="20" selection-end-line="548" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -616,14 +618,6 @@
           <folding>
             <marker date="1504224012060" expanded="true" signature="282:348" ph="select useri... users" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/getarticlelist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,62 +664,104 @@
         <state relative-caret-position="176">
           <caret line="8" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
-            <marker date="1504258518791" expanded="true" signature="108:136" ph="select max(i... articles" />
-            <marker date="1504258518791" expanded="true" signature="613:1700" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="620:1700" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="1324:1640" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="1652:1698" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="2496:2891" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="2622:2872" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="2734:2780" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="2928:3149" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3095:3120" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3224:5792" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3303:3701" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3428:3682" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3743:4713" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3870:4694" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3917:4671" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3946:4027" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3946:4099" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="3982:4027" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4128:4209" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4128:4281" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4164:4209" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4310:4391" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4310:4463" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4346:4391" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4492:4573" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4492:4645" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4528:4573" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4755:5125" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4880:5106" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="4987:5033" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5167:5792" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5292:5792" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5316:5372" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5316:5570" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5594:5676" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5594:5792" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5699:5792" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="5965:6078" ph="..." />
-            <marker date="1504258518791" expanded="true" signature="6454:6467" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="108:136" ph="select max(i... articles" />
+            <marker date="1504314441638" expanded="true" signature="613:1700" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="620:1700" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="1324:1640" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="1652:1698" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="2496:2891" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="2622:2872" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="2734:2780" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="2928:3149" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3095:3120" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3224:5792" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3303:3701" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3428:3682" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3743:4713" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3870:4694" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3917:4671" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3946:4027" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3946:4099" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="3982:4027" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4128:4209" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4128:4281" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4164:4209" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4310:4391" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4310:4463" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4346:4391" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4492:4573" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4492:4645" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4528:4573" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4755:5125" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4880:5106" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="4987:5033" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5167:5792" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5292:5792" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5316:5372" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5316:5570" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5594:5676" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5594:5792" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5699:5792" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="5965:6078" ph="..." />
+            <marker date="1504314441638" expanded="true" signature="6454:6467" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler.js">
+    <entry file="file://$PROJECT_DIR$/gongyi/update-article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2305">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="-7194">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/articledetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <marker date="1504314441607" expanded="true" signature="96:124" ph="select max(i... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/css/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/article_handler_up.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="484">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <marker date="1504231455543" expanded="true" signature="546:591" ph="select useri... articles" />
             <marker date="1504231455543" expanded="true" signature="676:901" ph="INSERT INTO articles... " />
@@ -734,21 +770,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/add_modify_article.php">
+    <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#script#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1504258518815" expanded="true" signature="96:124" ph="select max(i... articles" />
-          </folding>
+        <state relative-caret-position="326">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/getarticle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
           <folding>
             <marker date="1504257832916" expanded="true" signature="191:219" ph="select * fro... articles" />
             <marker date="1504257832916" expanded="true" signature="191:224" ph="select * fro... articles" />
@@ -757,18 +790,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/index.php">
+    <entry file="file://$PROJECT_DIR$/gongyi/article_handle_down.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="106">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <marker date="1504345366992" expanded="true" signature="198:228" ph="select count... articles" />
+            <marker date="1504345366992" expanded="true" signature="198:307" ph="select count... articles" />
+            <marker date="1504345366992" expanded="true" signature="739:791" ph="select * fro... articles" />
+            <marker date="1504345366992" expanded="true" signature="739:792" ph="select * fro... articles" />
+            <marker date="1504345366992" expanded="true" signature="739:802" ph="select * fro... articles" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
+    <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_down.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="113" column="50" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+        <state relative-caret-position="269">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
