@@ -46,96 +46,15 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="0"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="1"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="2"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="3"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="4"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="5"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="6"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="7"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="8"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
-                <tr>
-                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value="9"/></td>
-                    <td>000001</td>
-                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>
-                    <td class="hidden-sm hidden-xs">这个是栏目</td>
-                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>
-                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>
-                    <td><a href="update-article.html">修改</a> <a rel="6">删除</a></td>
-                </tr>
+<!--                <tr>-->
+<!--                    <td class="hidden-xs"><input type="checkbox" class="input-control" name="checkbox" value=""/></td>-->
+<!--                    <td>000001</td>-->
+<!--                    <td class="article-title">这是测试的文章标题这是测试的文章标题</td>-->
+<!--                    <td class="hidden-sm hidden-xs">这个是栏目</td>-->
+<!--                    <td class="hidden-sm hidden-xs">PHP、JavaScript</td>-->
+<!--                    <td class="hidden-sm hidden-xs">2015-12-03 00:00:00</td>-->
+<!--                    <td><a href="update-article.html">修改</a> <a href="articledetail.php?act=modify&id=0008">删除</a></td>-->
+<!--                </tr>-->
                 </tbody>
             </table>
         </div>
@@ -144,9 +63,9 @@
             <nav>
                 <div class="btn-toolbar operation hidden-xs" role="toolbar">
                     <div class="btn-group" role="group">
-                        <a class="btn btn-default" onClick="select()">全选</a>
-                        <a class="btn btn-default" onClick="reverse()">反选</a>
-                        <a class="btn btn-default" onClick="noselect()">不选</a>
+                        <a class="btn btn-default" id="selectAll">全选</a>
+                        <a class="btn btn-default" id="reverseSelect">反选</a>
+                        <a class="btn btn-default" id="noSelectAll">不选</a>
                     </div>
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"

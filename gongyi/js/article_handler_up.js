@@ -139,7 +139,7 @@ $().ready(function () {
 					if(status=='success'&&(data.indexOf('pass')!=-1)){
 						console.log(status+data);
 						console.log("提交成功");
-						location.href='articlelist.php#';
+						location.href='articlelist.php';
 					}else{
 						console.log(status+data);
 						console.log("提交失败，请重新提交");

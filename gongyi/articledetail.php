@@ -3,6 +3,7 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
     require_once "connect.php";
     $act="select max(id) from articles";
     $result=mysqli_query($conn,$act);
+    mysqli_close($conn);
     if(mysqli_num_rows($result)==1){
         $row=mysqli_fetch_row($result);
         $temp=(string)($row[0]+1);
@@ -14,7 +15,7 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
 }else if(isset($_GET['act'])&&($_GET['act']=='modify')){
     $articleid=$_GET['id'];
 }else{
-    $articleid='0002';
+    $articleid='0000';
 }
 
 ?>
