@@ -21,49 +21,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gongyi/index.php">
+      <file leaf-file-name="carousel_banner.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongyi/carousel/carousel_banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_handler_down.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_down.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_handle_down.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gongyi/article_handle_down.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="312">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
-                <marker date="1504430347413" expanded="true" signature="196:226" ph="delete from " />
-                <marker date="1504430347413" expanded="true" signature="196:227" ph="delete from " />
-                <marker date="1504430347413" expanded="true" signature="565:595" ph="select count... articles" />
-                <marker date="1504430347413" expanded="true" signature="565:661" ph="select count... articles" />
-                <marker date="1504430347413" expanded="true" signature="1027:1101" ph="select * fro... articles" />
-                <marker date="1504430347413" expanded="true" signature="1027:1102" ph="select * fro... articles" />
-                <marker date="1504430347413" expanded="true" signature="1027:1112" ph="select * fro... articles" />
+                <marker date="1504776340173" expanded="true" signature="104:139" ph="select * fro... carousel" />
+                <marker date="1504776340173" expanded="true" signature="4547:4567" ph="..." />
+                <marker date="1504776340173" expanded="true" signature="4849:4860" ph="..." />
+                <marker date="1504776340173" expanded="true" signature="5030:5054" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articlelist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
+      <file leaf-file-name="article_handle_down.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongyi/article/article_handle_down.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="348">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="65" />
+              <folding>
+                <marker date="1504576580276" expanded="true" signature="206:236" ph="delete from " />
+                <marker date="1504576580276" expanded="true" signature="206:237" ph="delete from " />
+                <marker date="1504576580276" expanded="true" signature="601:631" ph="select count... articles" />
+                <marker date="1504576580276" expanded="true" signature="601:700" ph="select count... articles" />
+                <marker date="1504576580276" expanded="true" signature="1102:1176" ph="select * fro... articles" />
+                <marker date="1504576580276" expanded="true" signature="1102:1177" ph="select * fro... articles" />
+                <marker date="1504576580276" expanded="true" signature="1102:1187" ph="select * fro... articles" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receiveimg.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongyi/carousel/receiveimg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel_banner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gongyi/js/carousel/carousel_banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,11 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home/SecondTest.js" />
-        <option value="$PROJECT_DIR$/home/SecondTest.css" />
-        <option value="$PROJECT_DIR$/home/index.js" />
-        <option value="$PROJECT_DIR$/home/index.css" />
-        <option value="$PROJECT_DIR$/home/footer.php" />
         <option value="$PROJECT_DIR$/home/commom.css" />
         <option value="$PROJECT_DIR$/home/article.css" />
         <option value="$PROJECT_DIR$/home/article_share.js" />
@@ -124,13 +124,23 @@
         <option value="$PROJECT_DIR$/gongyi/getarticle.php" />
         <option value="$PROJECT_DIR$/gongyi/js/get_modify_article.js" />
         <option value="$PROJECT_DIR$/gongyi/add_modify_article.php" />
-        <option value="$PROJECT_DIR$/gongyi/index.php" />
         <option value="$PROJECT_DIR$/gongyi/test.php" />
         <option value="$PROJECT_DIR$/gongyi/js/article_handler_up.js" />
-        <option value="$PROJECT_DIR$/gongyi/articlelist.php" />
         <option value="$PROJECT_DIR$/gongyi/articledetail.php" />
         <option value="$PROJECT_DIR$/gongyi/article_handle_down.php" />
+        <option value="$PROJECT_DIR$/gongyi/articlelist.php" />
         <option value="$PROJECT_DIR$/gongyi/js/article_handler_down.js" />
+        <option value="$PROJECT_DIR$/gongyi/article/articledetail.php" />
+        <option value="$PROJECT_DIR$/gongyi/article/article_handler_up.php" />
+        <option value="$PROJECT_DIR$/gongyi/article/article_handle_down.php" />
+        <option value="$PROJECT_DIR$/gongyi/article/getarticle.php" />
+        <option value="$PROJECT_DIR$/gongyi/index.php" />
+        <option value="$PROJECT_DIR$/gongyi/css/carousel.css" />
+        <option value="$PROJECT_DIR$/gongyi/carousel/receiveimg.php" />
+        <option value="$PROJECT_DIR$/gongyi/js/carousel.js" />
+        <option value="$PROJECT_DIR$/gongyi/carousel/carousel.php" />
+        <option value="$PROJECT_DIR$/gongyi/carousel/carousel_banner.php" />
+        <option value="$PROJECT_DIR$/gongyi/js/carousel/carousel_banner.js" />
       </list>
     </option>
   </component>
@@ -227,6 +237,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webuploader" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -245,14 +273,54 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordergongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gongyi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,12 +332,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PHP_Project\ordergongyi\gongyi\js\carousel" />
+      <recent name="E:\PHP_Project\ordergongyi\gongyi\article" />
       <recent name="E:\PHP_Project\ordergongyi\gongyi" />
       <recent name="E:\PHP_Project\ordergongyi\gongyi\css" />
       <recent name="E:\PHP_Project\ordergongyi\gongyi\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="JavaScript Debug.articlelist.php">
     <configuration default="false" name="index.php (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ordergongyi/home/index.php">
       <method />
     </configuration>
@@ -279,7 +349,7 @@
     <configuration default="false" name="article.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ordergongyi/home/article.php">
       <method />
     </configuration>
-    <configuration default="false" name="articlelist.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ordergongyi/gongyi/articlelist.php">
+    <configuration default="false" name="articlelist.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ordergongyi/gongyi/article/articlelist.php">
       <method />
     </configuration>
     <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/ordergongyi/gongyi/index.php">
@@ -340,8 +410,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.articlelist.php" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.articlelist.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php (4)" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Test.php" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.article.php" />
@@ -396,17 +466,20 @@
       <workItem from="1504226217418" duration="19040000" />
       <workItem from="1504312653397" duration="24442000" />
       <workItem from="1504399299956" duration="21499000" />
+      <workItem from="1504485146171" duration="18672000" />
+      <workItem from="1504575615852" duration="16600000" />
+      <workItem from="1504743858504" duration="21851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382692000" />
+    <option name="totallyTimeSpent" value="439815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16494845" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17203608" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231198" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -441,48 +514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/article_share.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/article_share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/heart_man_count.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/SecondTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/Test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -529,21 +560,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/images/backtop.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -573,13 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -667,7 +679,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
+    <entry file="file://$PROJECT_DIR$/gongyi/article/articlelist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -676,14 +688,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/update-article.html" />
-    <entry file="file://$PROJECT_DIR$/gongyi/css/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -692,92 +696,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/getarticle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <marker date="1504257832916" expanded="true" signature="191:219" ph="select * fro... articles" />
-            <marker date="1504257832916" expanded="true" signature="191:224" ph="select * fro... articles" />
-            <marker date="1504257832916" expanded="true" signature="191:235" ph="select * fro... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/article_handler_up.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <marker date="1504231455543" expanded="true" signature="546:591" ph="select useri... articles" />
-            <marker date="1504231455543" expanded="true" signature="676:901" ph="INSERT INTO articles... " />
-            <marker date="1504231455543" expanded="true" signature="991:1194" ph="UPDATE artic... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_up.js">
+    <entry file="file://$PROJECT_DIR$/gongyi/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="137" column="70" selection-start-line="137" selection-start-column="70" selection-end-line="137" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/articledetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1504429083893" expanded="true" signature="96:124" ph="select max(i... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/articlelist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongyi/article_handle_down.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1504430347413" expanded="true" signature="196:226" ph="delete from " />
-            <marker date="1504430347413" expanded="true" signature="196:227" ph="delete from " />
-            <marker date="1504430347413" expanded="true" signature="565:595" ph="select count... articles" />
-            <marker date="1504430347413" expanded="true" signature="565:661" ph="select count... articles" />
-            <marker date="1504430347413" expanded="true" signature="1027:1101" ph="select * fro... articles" />
-            <marker date="1504430347413" expanded="true" signature="1027:1102" ph="select * fro... articles" />
-            <marker date="1504430347413" expanded="true" signature="1027:1112" ph="select * fro... articles" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_down.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        <state relative-caret-position="594">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/js/article_handler_up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="135" column="54" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/article/article_handler_up.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1504576341622" expanded="true" signature="549:594" ph="select useri... articles" />
+            <marker date="1504576341622" expanded="true" signature="679:904" ph="INSERT INTO articles... " />
+            <marker date="1504576341622" expanded="true" signature="994:1197" ph="UPDATE artic... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/article/articlelist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/images/backtop.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/images/weixin.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/css/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/article/getarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <marker date="1504576624070" expanded="true" signature="194:222" ph="select * fro... articles" />
+            <marker date="1504576624070" expanded="true" signature="194:227" ph="select * fro... articles" />
+            <marker date="1504576624070" expanded="true" signature="194:238" ph="select * fro... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/article/articledetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <marker date="1504576341589" expanded="true" signature="99:127" ph="select max(i... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/carousel/receiveimg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/js/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/article/article_handle_down.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="65" />
+          <folding>
+            <marker date="1504576580276" expanded="true" signature="206:236" ph="delete from " />
+            <marker date="1504576580276" expanded="true" signature="206:237" ph="delete from " />
+            <marker date="1504576580276" expanded="true" signature="601:631" ph="select count... articles" />
+            <marker date="1504576580276" expanded="true" signature="601:700" ph="select count... articles" />
+            <marker date="1504576580276" expanded="true" signature="1102:1176" ph="select * fro... articles" />
+            <marker date="1504576580276" expanded="true" signature="1102:1177" ph="select * fro... articles" />
+            <marker date="1504576580276" expanded="true" signature="1102:1187" ph="select * fro... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/carousel/carousel_banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding>
+            <marker date="1504776340173" expanded="true" signature="104:139" ph="select * fro... carousel" />
+            <marker date="1504776340173" expanded="true" signature="4547:4567" ph="..." />
+            <marker date="1504776340173" expanded="true" signature="4849:4860" ph="..." />
+            <marker date="1504776340173" expanded="true" signature="5030:5054" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongyi/js/carousel/carousel_banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
           <folding />
         </state>
       </provider>

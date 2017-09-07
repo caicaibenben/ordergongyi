@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>文章列表</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/article.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="apple-touch-icon-precomposed" href="images/icon/icon.png">
-    <link rel="shortcut icon" href="images/icon/favicon.ico">
-    <script src="js/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/article.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="apple-touch-icon-precomposed" href="../images/icon/icon.png">
+    <link rel="shortcut icon" href="../images/icon/favicon.ico">
+    <script src="../js/jquery-2.1.4.min.js"></script>
     <!--[if gte IE 9]>
-    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="js/html5shiv.min.js" type="text/javascript"></script>
-    <script src="js/respond.min.js" type="text/javascript"></script>
-    <script src="js/selectivizr-min.js" type="text/javascript"></script>
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="../js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="../js/respond.min.js" type="text/javascript"></script>
+    <script src="../js/selectivizr-min.js" type="text/javascript"></script>
     <![endif]-->
     <!--[if lt IE 9]>
     <script>window.location.href = 'upgrade-browser.html';</script>
@@ -73,8 +73,8 @@
                         </button>
                     </div>
                 </div>
-                <ul class="pagination pagenav">
-                    <li class="disabled"><a aria-label="Previous"> <span aria-hidden="true">&lt;&lt;</span> </a></li>
+                <ul class="pagination pagenav" id="pagerow">
+                    <li><a aria-label="Previous"> <span aria-hidden="true">&lt;&lt;</span> </a></li>
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
@@ -87,5 +87,5 @@
     </form>
 </section>
 </body>
-<script src="./js/article_handler_down.js"></script>
+<script src="../js/article_handler_down.js"></script>
 </html>

@@ -3,7 +3,7 @@
         print_r("ID null");
         exit;
     }
-    require_once "connect.php";
+    require_once "../connect.php";
     $articleid=$_POST['articleid'];
     $result=mysqli_query($conn,"select * from articles where id='$articleid'");
     if(mysqli_num_rows($result)==1){

@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['act'])&&($_GET['act']=='add')){
-    require_once "connect.php";
+    require_once "../connect.php";
     $act="select max(id) from articles";
     $result=mysqli_query($conn,$act);
     mysqli_close($conn);
@@ -27,18 +27,18 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>添加文章</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/article.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="apple-touch-icon-precomposed" href="images/icon/icon.png">
-    <link rel="shortcut icon" href="images/icon/favicon.ico">
-    <script src="js/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/article.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="apple-touch-icon-precomposed" href="../images/icon/icon.png">
+    <link rel="shortcut icon" href="../images/icon/favicon.ico">
+    <script src="../js/jquery-2.1.4.min.js"></script>
     <!--[if gte IE 9]>
-    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="js/html5shiv.min.js" type="text/javascript"></script>
-    <script src="js/respond.min.js" type="text/javascript"></script>
-    <script src="js/selectivizr-min.js" type="text/javascript"></script>
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="../js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="../js/respond.min.js" type="text/javascript"></script>
+    <script src="../js/selectivizr-min.js" type="text/javascript"></script>
     <![endif]-->
     <!--[if lt IE 9]>
     <script>window.location.href = 'upgrade-browser.html';</script>
@@ -133,12 +133,12 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
         </form>
     </div>
 </section>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/admin-scripts.js"></script>
-<script src="./ueditor/ueditor.config.js"></script>
-<script src="./ueditor/ueditor.all.min.js"></script>
-<script src="./ueditor/lang/zh-cn/zh-cn.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/admin-scripts.js"></script>
+<script src="../ueditor/ueditor.config.js"></script>
+<script src="../ueditor/ueditor.all.min.js"></script>
+<script src="../ueditor/lang/zh-cn/zh-cn.js"></script>
 <!--<script id="uploadEditor" type="text/plain" style="display:none;"></script>-->
-<script src="js/article_handler_up.js"></script>
+<script src="../js/article_handler_up.js"></script>
 </body>
 </html>

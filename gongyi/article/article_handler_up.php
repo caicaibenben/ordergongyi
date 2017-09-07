@@ -8,7 +8,7 @@
     $article_mark=htmlspecialchars($_POST['mark']);
     $article_content=htmlspecialchars($_POST['article_content']);
     $article_time=htmlspecialchars($_POST['time']);
-    require_once "connect.php";
+    require_once "../connect.php";
     $result=mysqli_query($conn,"select * from articles where id='$article_id'");
     if(mysqli_num_rows($result)==0){//文章插入
         $flag="insert";
