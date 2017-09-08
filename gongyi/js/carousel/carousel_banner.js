@@ -6,7 +6,7 @@ $().ready(function () {
 		// swf文件路径
 		swf: '../webuploader/Uploader.swf',
 		// 文件接收服务端。
-		server: '../carousel/receiveimg.php',
+		server: '../carousel/uploadimg.php',
 		// 选择文件的按钮。可选。
 		// 内部根据当前运行是创建，可能是input元素，也可能是flash.
 		pick: '#changeImg1',
@@ -80,7 +80,7 @@ $().ready(function () {
 		// swf文件路径
 		swf: '../webuploader/Uploader.swf',
 		// 文件接收服务端。
-		server: '../carousel/receiveimg.php',
+		server: '../carousel/uploadimg.php',
 		// 选择文件的按钮。可选。
 		// 内部根据当前运行是创建，可能是input元素，也可能是flash.
 		pick: '#changeImg2',
@@ -154,7 +154,7 @@ $().ready(function () {
 		// swf文件路径
 		swf: '../webuploader/Uploader.swf',
 		// 文件接收服务端。
-		server: '../carousel/receiveimg.php',
+		server: '../carousel/uploadimg.php',
 		// 选择文件的按钮。可选。
 		// 内部根据当前运行是创建，可能是input元素，也可能是flash.
 		pick: '#changeImg3',
@@ -228,7 +228,7 @@ $().ready(function () {
 		// swf文件路径
 		swf: '../webuploader/Uploader.swf',
 		// 文件接收服务端。
-		server: '../carousel/receiveimg.php',
+		server: '../carousel/uploadimg.php',
 		// 选择文件的按钮。可选。
 		// 内部根据当前运行是创建，可能是input元素，也可能是flash.
 		pick: '#changeImg4',
@@ -302,7 +302,7 @@ $().ready(function () {
 		// swf文件路径
 		swf: '../webuploader/Uploader.swf',
 		// 文件接收服务端。
-		server: '../carousel/receiveimg.php',
+		server: '../carousel/uploadimg.php',
 		// 选择文件的按钮。可选。
 		// 内部根据当前运行是创建，可能是input元素，也可能是flash.
 		pick: '#changeImg5',
@@ -369,7 +369,60 @@ $().ready(function () {
 		//
 		// $error.text('上传失败');
 	});
+	//获取信息用于提交
+	var carousel=new Array();
 	function getTableValue(i) {
+		carousel.splice(0,carousel.length);
+		var tr=$("tbody tr").eq(i);
+		carousel[0]=tr.find("td").eq(1).attr('value');
+		carousel[1]=tr.find("td").eq(0).text();
+		carousel[2]=tr.find('td img').prop("src");
+		carousel[3]=tr.find('textarea').val();
+		carousel[4]=tr.find("td input:text").val();
+		console.log(carousel);
+	}
+	function checkTableValue() {
+		//var reg=/^([hH][tT]{2}[pP]:\/\/|[hH][tT]{2}[pP][sS]:\/\/)(([A-Za-z0-9-~]+)\.)+([A-Za-z0-9-~\/])+$/;
+		var strRegex = "^((https|http|ftp|rtsp|mms)?://)"
+			+ "?(([0-9a-z_!~*'().&=+$%-]+: )?[0-9a-z_!~*'().&=+$%-]+@)?" //ftp的user@
+			+ "(([0-9]{1,3}\.){3}[0-9]{1,3}" // IP形式的URL- 199.194.52.184
+			+ "|" // 允许IP和DOMAIN（域名）
+			+ "([0-9a-z_!~*'()-]+\.)*" // 域名- www.
+			+ "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]\." // 二级域名
+			+ "[a-z]{2,6})" // first level domain- .com or .museum
+			+ "(:[0-9]{1,4})?" // 端口- :80
+			+ "((/?)|" // a slash isn't required if there is no file name
+			+ "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";
+		var reg=new RegExp(strRegex);
+
+		if(carousel[3].length>200){
+			alert("文字描述请少于200字");
+			return false;
+		// }else if(!reg.test(carousel[4])){
+		// 	alert("请输入一个合法的链接");
+		// 	return false;
+		}else{
+			return true;
+		}
 
 	}
+	//getTableValue(0);
+	$('tbody tr td button').click(function () {
+		var index=$('tbody tr td button').index($(this));
+		//console.log($(this).index("tbody tr td button"));
+		getTableValue(index);
+		if(checkTableValue()){
+			$.post("modifyCarousel.php",{carouselArray:carousel},function (data,status) {
+				if(status=="success"&&data.indexOf("fail")==-1){
+					console.log(status+data);
+					alert("提交成功");
+				}else{
+					console.log(status+data);
+					alert("提交失败，请重试");
+				}
+
+			});
+		}
+
+	});
 });

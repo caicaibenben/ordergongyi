@@ -43,23 +43,23 @@
         <!--</ol>-->
         <!--<h3><span>文章列表</span></h3>-->
         <div class="carouseltitle">
-            <span class="glyphicon glyphicon-list"></span><b>活动报道</b>
+            <span class="glyphicon glyphicon-list"></span><b>活动报道</b><span style="color: #888;font-size: 5px;margin-left: 30px">注意:图片像素请不小于700x450,大小不超过2M</span>
         </div>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead>
                 <tr>
-                    <th class="hidden-xs"><span class="glyphicon glyphicon-th-large"></span> <span
+                    <th class="hidden-xs" width="10%"><span class="glyphicon glyphicon-th-large"></span> <span
                             class="visible-lg-inline-block">编号</span></th>
-                    <th><span class="glyphicon glyphicon-paperclip"></span> <span
+                    <th width="10%"><span class="glyphicon glyphicon-paperclip"></span> <span
                             class="visible-lg-inline-block">名称类别</span></th>
-                    <th class="hidden-sm hidden-xs"><span class="glyphicon glyphicon-picture"></span> <span
+                    <th class="hidden-sm hidden-xs" width="10%"><span class="glyphicon glyphicon-picture"></span> <span
                             class="visible-lg-inline-block">图片</span></th>
-                    <th class="hidden-sm hidden-xs"><span class="glyphicon glyphicon-tag"></span> <span
+                    <th class="hidden-sm hidden-xs" width="25%"><span class="glyphicon glyphicon-tag"></span> <span
                             class="visible-lg-inline-block">描述</span></th>
-                    <th class="hidden-sm hidden-xs"><span class="glyphicon glyphicon-link"></span> <span
+                    <th class="hidden-sm hidden-xs" width="25%"><span class="glyphicon glyphicon-link"></span> <span
                             class="visible-lg-inline-block">链接</span></th>
-                    <th><span class="glyphicon glyphicon-pencil"></span> <span class="visible-lg-inline-block">操作</span>
+                    <th width="10%"><span class="glyphicon glyphicon-pencil"></span> <span class="visible-lg-inline-block">操作</span>
                     </th>
                 </tr>
                 </thead>
@@ -78,9 +78,9 @@
                             echo '<tr><td class="hidden-xs">'.$row[2].'</td>';
                             echo '<td value="'.$row[1].'">'.$type[$row[1]].'</td>';
                             echo '<td class="hidden-sm hidden-xs"><img src="'.$row[3].'" alt="活动报道轮播图1" width="150px" height="100px" style="border:1px solid red"></td>';
-                            echo '<td class="hidden-sm hidden-xs"><textarea cols="50" rows="5" name="textarea" id="textarea" placeholder="请输入图片描述，字数限制在200字以内">'.$row[4].'</textarea></td>';
-                            echo '<td class="hidden-sm hidden-xs">链接:<input style="width：200px" type="text" value="'.$row[5].'"></td>';
-                            echo '<td><div id="changeImg'.$i.'">修改图片</div> <button type="button" class="btn btn-primary" style="width: 86px;height: 40px">提交</button></td>';
+                            echo '<td class="hidden-sm hidden-xs"><textarea style="width: 100%" rows="5" name="textarea" id="textarea" placeholder="请输入图片描述，字数限制在200字以内">'.$row[4].'</textarea></td>';
+                            echo '<td class="hidden-sm hidden-xs">链接:<input size="40" type="text" value="'.$row[5].'"></td>';
+                            echo '<td><div id="changeImg'.$i.'">修改图片</div> <button type="button" class="btn btn-primary" style="width: 86px;height: 40px" value="'.$i.'">提交</button></td>';
                         }
                     ?>
                 </tbody>
