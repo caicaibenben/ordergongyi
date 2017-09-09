@@ -77,8 +77,8 @@
                             $row=mysqli_fetch_array($result, MYSQLI_NUM);
                             echo '<tr><td class="hidden-xs">'.$row[2].'</td>';
                             echo '<td value="'.$row[1].'">'.$type[$row[1]].'</td>';
-                            echo '<td class="hidden-sm hidden-xs"><img src="'.$row[3].'" alt="活动报道轮播图1" width="150px" height="100px" style="border:1px solid red"></td>';
-                            echo '<td class="hidden-sm hidden-xs"><textarea style="width: 100%" rows="5" name="textarea" id="textarea" placeholder="请输入图片描述，字数限制在200字以内">'.$row[4].'</textarea></td>';
+                            echo '<td class="hidden-sm hidden-xs"><img src="'.$row[3].'" alt="活动报道轮播图1" width="140px" height="100px" style="border:1px solid red"></td>';
+                            echo '<td class="hidden-sm hidden-xs"><textarea style="width: 100%" rows="3" name="textarea" id="textarea" placeholder="请输入图片描述，字数限制在30字以内">'.$row[4].'</textarea></td>';
                             echo '<td class="hidden-sm hidden-xs">链接:<input size="40" type="text" value="'.$row[5].'"></td>';
                             echo '<td><div id="changeImg'.$i.'">修改图片</div> <button type="button" class="btn btn-primary" style="width: 86px;height: 40px" value="'.$i.'">提交</button></td>';
                         }

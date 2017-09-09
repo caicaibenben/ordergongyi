@@ -87,5 +87,5 @@
     </form>
 </section>
 </body>
-<script src="../js/article_handler_down.js"></script>
+<script src="../js/article/article_handler_down.js"></script>
 </html>

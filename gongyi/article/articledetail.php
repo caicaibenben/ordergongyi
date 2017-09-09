@@ -139,6 +139,6 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
 <script src="../ueditor/ueditor.all.min.js"></script>
 <script src="../ueditor/lang/zh-cn/zh-cn.js"></script>
 <!--<script id="uploadEditor" type="text/plain" style="display:none;"></script>-->
-<script src="../js/article_handler_up.js"></script>
+<script src="../js/article/article_handler_up.js"></script>
 </body>
 </html>

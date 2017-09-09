@@ -4,6 +4,7 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.html");
     exit;
 }
+//echo dirname(__FILE__);
 ?>
 <!doctype html>
 <html lang="zh-CN">
@@ -86,7 +87,7 @@ if (!isset($_SESSION['username'])) {
                 <li><a href="./article/articlelist.php?page=1" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
                 <li><a href="./article/articledetail.php?act=add" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
                 <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
-                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>
+<!--                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>-->
             </ul>
             <!--侧边栏分类标题-->
             <div class="leftnav_subtitle">
@@ -95,10 +96,10 @@ if (!isset($_SESSION['username'])) {
 
             <ul class="nav nav-sidebar">
                 <li><a href="carousel/carousel_banner.php" target="right"><span class="glyphicon glyphicon-triangle-right"></span>活动报道</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>精准助学</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>往期回顾</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>展望未来</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>图标更换</a></li><!--网站图标及二维码-->
+                <li><a href="carousel/carousel_schoolhelp.php" target="right"><span class="glyphicon glyphicon-triangle-right"></span>精准助学</a></li>
+                <li><a href="carousel/carousel_pastcheck.php" target="right"><span class="glyphicon glyphicon-triangle-right"></span>往期回顾</a></li>
+                <li><a href="carousel/carousel_future.php" target="right"><span class="glyphicon glyphicon-triangle-right"></span>展望未来</a></li>
+            <!--<li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>图标更换</a></li><!--网站图标及二维码-->
             </ul>
             <!--侧边栏分类标题-->
             <div class="leftnav_subtitle">
