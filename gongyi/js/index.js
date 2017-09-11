@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	$('[data-toggle="tooltip"]').tooltip();
 	$('.leftnav_subtitle').click(function () {
 		$(this).next().slideToggle(300);
 	});

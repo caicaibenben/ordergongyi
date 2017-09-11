@@ -117,7 +117,7 @@ button.disabled {
 	cursor: no-drop;
 }
 body, input, button, textarea, select {
-	font-family: "Microsoft YaHei", "微软雅黑", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	font-family: "Microsoft YaHei", "微软雅黑", "Lantinghei SC", "Open Sans", 'Arial', "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", 'SimSun', 'sans-serif';
 }
 /*定义字体*/
 @font-face {

@@ -1,9 +1,10 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-    header("Location: login.html");
+    header("Location: login.php");
     exit;
 }
+
 //echo dirname(__FILE__);
 ?>
 <!doctype html>
@@ -48,18 +49,10 @@ if (!isset($_SESSION['username'])) {
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">消息</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                admin <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                <li><a title="查看或修改个人信息" data-toggle="modal" data-target="#seeUserInfo">个人信息</a></li>
-                                <li><a title="查看您的登录记录" data-toggle="modal" data-target="#seeUserLoginlog">登录记录</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="login.html" onClick="if(!confirm('是否确认退出？'))return false;">退出登录</a></li>
-                        <li><a data-toggle="modal" data-target="#WeChat">帮助</a></li>
+                        <li><a>消息</a></li>
+                        <li><a><?php echo $_SESSION['username'];?></a></li>
+                        <li><a href="login_handle.php?act=logout" onClick="if(!confirm('是否确认退出？'))return false;">退出登录</a></li>
+                        <li><a>帮助</a></li>
                     </ul>
                     <form action="" method="post" class="navbar-form navbar-right" role="search">
                         <div class="input-group">
@@ -86,7 +79,7 @@ if (!isset($_SESSION['username'])) {
             <ul class="nav nav-sidebar">
                 <li><a href="./article/articlelist.php?page=1" target="right"><span class="glyphicon glyphicon-triangle-right"></span>文章列表</a></li>
                 <li><a href="./article/articledetail.php?act=add" target="right"><span class="glyphicon glyphicon-triangle-right"></span>添加文章</a></li>
-                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>爱心捐助</a></li>
 <!--                <li><a href="notice.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>公告评论</a></li>-->
             </ul>
             <!--侧边栏分类标题-->
@@ -106,10 +99,10 @@ if (!isset($_SESSION['username'])) {
                 <span class="glyphicon glyphicon-wrench left" style="padding-top: 8px"></span><h4 class="left" style="padding-left: 10px;padding-top: 6px">其他设置</h4>
             </div>
             <ul class="nav nav-sidebar">
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>用户管理</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>更改信息</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>登录日志</a></li>
-                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>基本设置</a></li>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>用户管理</a></li>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>更改信息</a></li>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>登录日志</a></li>
+<!--                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>基本设置</a></li>-->
             </ul>
         </aside>
         <div class="main" id="main">
@@ -122,7 +115,7 @@ if (!isset($_SESSION['username'])) {
                     <li><a>语言：中文</a></li>
                 </ul>
             </div>
-            <iframe src="report.html" sandbox="allow-same-origin allow-forms allow-scripts allow-popups allow-modals" id="right" name="right" width="100%" frameborder="0" onload="iframeHeight()" class="iframe_set">
+            <iframe src="./article/articlelist.php" style="overflow: scroll" sandbox="allow-same-origin allow-forms allow-scripts allow-popups allow-modals" id="right" name="right" width="100%" frameborder="0"  onload="setHeightValue()" class="iframe_set">
             </iframe>
         </div>
     </div>
@@ -145,12 +138,35 @@ if (!isset($_SESSION['username'])) {
 
 <!--动态调整iframe的高度-->
 <script type="text/javascript" language="javascript">
+    function setHeightValue() {
+        var ifm = document.getElementById("right");
+        ifm.height=window.innerHeight-115;
+    }
     function iframeHeight() {
         var ifm = document.getElementById("right");
         var subWeb = document.frames ? document.frames["right"].document : ifm.contentDocument;
         if (ifm != null && subWeb != null) {
             ifm.height = subWeb.body.scrollHeight;
             //ifm.width = subWeb.body.scrollWidth;
+        }
+    }
+    function SetCwinHeight(obj)
+    {
+        var cwin=obj;
+        if (document.getElementById)
+        {
+            if (cwin && !window.opera)
+            {
+                if (cwin.contentDocument && cwin.contentDocument.body.offsetHeight)
+                    cwin.height = cwin.contentDocument.body.offsetHeight; //FF NS
+                else if(cwin.Document && cwin.Document.body.scrollHeight)
+                    cwin.height = cwin.Document.body.scrollHeight;//IE
+            }
+            else
+            {
+                if(cwin.contentWindow.document && cwin.contentWindow.document.body.scrollHeight)
+                    cwin.height = cwin.contentWindow.document.body.scrollHeight;//Opera
+            }
         }
     }
 </script>

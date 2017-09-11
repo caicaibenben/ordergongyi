@@ -134,7 +134,7 @@ if(isset($_GET['act'])&&($_GET['act']=='add')){
     </div>
 </section>
 <script src="../js/bootstrap.min.js"></script>
-<script src="../js/admin-scripts.js"></script>
+<script src="../js/admin-script.js"></script>
 <script src="../ueditor/ueditor.config.js"></script>
 <script src="../ueditor/ueditor.all.min.js"></script>
 <script src="../ueditor/lang/zh-cn/zh-cn.js"></script>

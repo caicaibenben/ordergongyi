@@ -6,7 +6,7 @@ if(!$conn){
     echo "<script>alert('数据库连接失败');";
     echo " history.back();\r\n";
     echo "</script>";
-    //header("Location: login.html");
+    //header("Location: login.php");
     exit;
 }
 mysqli_set_charset($conn,'utf8');
