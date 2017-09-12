@@ -17,7 +17,7 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css">
-    <link rel="stylesheet" href="article_share.css" type="text/css">
+    <link rel="stylesheet" href="./article_share.css" type="text/css">
 </head>
 <body>
 <!--头部-->
@@ -61,46 +61,40 @@
             <div class="left banner" style="width: 670px;height: 360px">
                 <div class="img_box">
                     <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban0.jpg" alt="" width="670px " height="360px"></a>
+                        <a href="javascript:;"><img src="/ordergongyi/article/20170912/20170912oXOcIM.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>活动</em>
-                    <a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
-                </span>
+                        <em>活动</em><a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
+                        </span>
                     </div>
                     <div class="left display" style="width: 670px;height: 360px">
                         <a href="javascript:;"><img src="../image/banner/ban1.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>助学</em>
-                    <a href="javascript:;" target="_blank">人生之善莫过于助人，助人之德莫过于助学</a>
-                </span>
+                        <em>助学</em><a href="javascript:;" target="_blank">人生之善莫过于助人，助人之德莫过于助学</a>
+                        </span>
                     </div>
                     <div class="left display" style="width: 670px;height: 360px">
                         <a href="javascript:;"><img src="../image/banner/ban2.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>希望</em>
-                    <a href="javascript:;" target="_blank">奉献爱心，收获希望</a>
-                </span>
+                        <em>希望</em><a href="javascript:;" target="_blank">奉献爱心，收获希望</a>
+                        </span>
                     </div>
                     <div class="left display" style="width: 670px;height: 360px">
                         <a href="javascript:;"><img src="../image/banner/ban3.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>发言</em>
-                    <a href="javascript:;" target="_blank">让贫苦的学子能在更广阔的世界翱翔，实现自己的人生价值</a>
-                </span>
+                        <em>发言</em><a href="javascript:;" target="_blank">让贫苦的学子能在更广阔的世界翱翔，实现自己的人生价值</a>
+                        </span>
                     </div>
                     <div class="left display" style="width: 670px;height: 360px">
                         <a href="javascript:;"><img src="../image/banner/ban4.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>公益</em>
-                    <a href="javascript:;" target="_blank">赠人玫瑰，手有余香</a>
-                </span>
+                        <em>公益</em><a href="javascript:;" target="_blank">赠人玫瑰，手有余香</a>
+                        </span>
                     </div>
                     <div class="left display" style="width: 670px;height: 360px">
                         <a href="javascript:;"><img src="../image/banner/ban0.jpg" alt="" width="670px " height="360px"></a>
                         <span class="banner_shadow">
-                    <em>活动</em>
-                    <a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
-                </span>
+                        <em>活动</em><a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -132,16 +126,16 @@
                 <div style="width: 670px;height: 180px;margin-top: 10px">
                     <div class="activityshow">
                         <span>活动</span>
-                        <a href="article.php" style="padding: 0px"><b>用爱心为贫困学子换取助学金</b></a>
+                        <a href="article/article.php" style="padding: 0px"><b>用爱心为贫困学子换取助学金</b></a>
                     </div>
                     <div>
                         <a style="float: left"><img src="../image/activity/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
                         <div>
                             <div class="activitycontext">
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="article.php" style="color: #000000">深入弘扬沂蒙精神，传递社会爱心，帮助经济困难的大学生顺利完成学业,奥德集团积极履行社会责任，回报社会，并将慈善事业作为系统工程深入实施，以实际行动弘扬“精准扶贫、回馈社会”的精神</a></p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="article/article.php" style="color: #000000">深入弘扬沂蒙精神，传递社会爱心，帮助经济困难的大学生顺利完成学业,奥德集团积极履行社会责任，回报社会，并将慈善事业作为系统工程深入实施，以实际行动弘扬“精准扶贫、回馈社会”的精神</a></p>
                             </div>
                             <div class="right" style="bottom: 0px">
-                                <a href="article.php"><img src="../image/ico/xiangqing.png"></a>
+                                <a href="article/article.php"><img src="../image/ico/xiangqing.png"></a>
                             </div>
                         </div>
                     </div>
@@ -422,7 +416,7 @@
     </div>
 </div>
 <?php
-    require_once "article_share.php";
+    require_once "./article_share.php";
 ?>
 <script src="index.js"></script>
 <script src="heart_man_count.js"></script>

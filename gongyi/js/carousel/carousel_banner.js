@@ -129,7 +129,7 @@ $().ready(function () {
 		//console.log(response);
 		console.log(response._raw);
 		var fileurl=response._raw;
-		$('tbody tr td img').eq(0).prop("src",fileurl);
+		$('tbody tr td img').eq(1).prop("src",fileurl);
 		console.log("上传成功");
 	});
 
@@ -203,7 +203,7 @@ $().ready(function () {
 		//console.log(response);
 		console.log(response._raw);
 		var fileurl=response._raw;
-		$('tbody tr td img').eq(0).prop("src",fileurl);
+		$('tbody tr td img').eq(2).prop("src",fileurl);
 		console.log("上传成功");
 	});
 
@@ -277,7 +277,7 @@ $().ready(function () {
 		//console.log(response);
 		console.log(response._raw);
 		var fileurl=response._raw;
-		$('tbody tr td img').eq(0).prop("src",fileurl);
+		$('tbody tr td img').eq(3).prop("src",fileurl);
 		console.log("上传成功");
 	});
 
@@ -351,7 +351,7 @@ $().ready(function () {
 		//console.log(response);
 		console.log(response._raw);
 		var fileurl=response._raw;
-		$('tbody tr td img').eq(0).prop("src",fileurl);
+		$('tbody tr td img').eq(4).prop("src",fileurl);
 		console.log("上传成功");
 	});
 
@@ -377,7 +377,7 @@ $().ready(function () {
 		var tr=$("tbody tr").eq(i);
 		carousel[0]=tr.find("td").eq(1).attr('value');
 		carousel[1]=tr.find("td").eq(0).text();
-		carousel[2]=tr.find('td img').attr("src").replace(host,'');
+		carousel[2]=tr.find('td img').prop("src").replace(host,'');
 		carousel[3]=tr.find('textarea').val();
 		carousel[4]=tr.find("td input:text").val();
 		console.log(carousel);

@@ -80,7 +80,7 @@ if (isset($_REQUEST["name"])) {
     $fileName = uniqid("file_");
 }
 
-$filePath = $targetDir . DIRECTORY_SEPARATOR . $fileName;
+$filePath = $targetDir . '/' . $fileName;
 function random($length) {
     $hash = '';
     $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz';
@@ -92,7 +92,7 @@ function random($length) {
     return $hash;
 }
 $uploadfilename=date("Ymd").random(6).substr($fileName,strrpos($fileName,'.'));
-$uploadPath = $uploadDir . DIRECTORY_SEPARATOR . $uploadfilename;
+$uploadPath = $uploadDir .'/'. $uploadfilename;
 
 // Chunking might be enabled
 $chunk = isset($_REQUEST["chunk"]) ? intval($_REQUEST["chunk"]) : 0;
