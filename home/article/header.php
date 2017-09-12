@@ -17,7 +17,7 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="commom.css" type="text/css">
-    <link rel="stylesheet" href="article.css" type="text/css">
+    <link rel="stylesheet" href="Test.css" type="text/css">
 <!--    <script src="./static/api/js/share.js"></script>-->
     <link rel="stylesheet" href="./article_share.css" type="text/css">
 </head>

@@ -1,3 +1,17 @@
+<?php
+    require_once "connect.php";
+    $sql='select * from carousel';
+    $result=mysqli_query($conn,$sql);
+    if(mysqli_num_rows($result)==0||$result==false){
+        print_r("数据库查询失败");
+        exit;
+    }
+    $carousel=Array();
+    for($i=0;$i<mysqli_num_rows($result);$i++){
+        $carousel[$i]=mysqli_fetch_array($result,MYSQLI_NUM);
+    }
+    $count=0;//标记查询结果数组下标
+?>
 <!doctype html>
 <html lang="en-zh">
 <head>
@@ -60,42 +74,25 @@
         <div class="layout" style="height: 660px">
             <div class="left banner" style="width: 670px;height: 360px">
                 <div class="img_box">
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="/ordergongyi/article/20170912/20170912oXOcIM.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>活动</em><a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
-                        </span>
-                    </div>
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban1.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>助学</em><a href="javascript:;" target="_blank">人生之善莫过于助人，助人之德莫过于助学</a>
-                        </span>
-                    </div>
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban2.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>希望</em><a href="javascript:;" target="_blank">奉献爱心，收获希望</a>
-                        </span>
-                    </div>
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban3.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>发言</em><a href="javascript:;" target="_blank">让贫苦的学子能在更广阔的世界翱翔，实现自己的人生价值</a>
-                        </span>
-                    </div>
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban4.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>公益</em><a href="javascript:;" target="_blank">赠人玫瑰，手有余香</a>
-                        </span>
-                    </div>
-                    <div class="left display" style="width: 670px;height: 360px">
-                        <a href="javascript:;"><img src="../image/banner/ban0.jpg" alt="" width="670px " height="360px"></a>
-                        <span class="banner_shadow">
-                        <em>活动</em><a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>
-                        </span>
-                    </div>
+                    <?php
+                        for($i=0,$j=0;$j<6;$i++,$j++){
+                            if($i>=5){
+                                $i=0;
+                            }
+                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                            echo '<div class="left display" style="width: 670px;height: 360px">';
+                            echo '<a '.$link.' target="_blank"><img src="'.$carousel[$count+$i][3].'" alt="" width="670px " height="360px"></a>';
+                            echo '<span class="banner_shadow">';
+                            echo '<em>活动</em><a target="_blank">'.$carousel[$count+$i][4].'</a>';
+                            echo '</span></div>';
+                        }
+                    ?>
+<!--                    <div class="left display" style="width: 670px;height: 360px">-->
+<!--                        <a><img src="/ordergongyi/article/20170912/20170912oXOcIM.jpg" alt="" width="670px " height="360px"></a>-->
+<!--                        <span class="banner_shadow">-->
+<!--                        <em>活动</em><a href="javascript:;" target="_blank">关注寒门学子，开展公益助学，奥德燃气一直在努力</a>-->
+<!--                        </span>-->
+<!--                    </div>-->
                 </div>
             </div>
             <div class="right" style="width: 320px;height: 360px">
@@ -108,15 +105,24 @@
                     </div>
                     <div class="left banner" style="width: 610px;height: 100px">
                         <div class="img_box_tumb">
-                            <img src="../image/banner/ban0.jpg" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">
-                            <img src="../image/banner/ban1.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban2.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban3.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban4.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban0.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban1.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban2.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">
-                            <img src="../image/banner/ban3.jpg" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">
+                            <?php
+                                for($i=0,$j=0;$j<9;$i++,$j++){
+                                    if($i>=5){
+                                        $i=0;
+                                    }
+                                    echo '<img src="'.$carousel[$count+$i][3].'" alt="" style="margin: 0px 10px 0px 0px" height="100px" width="145">';
+                                }
+                                $count=$count+$j-$i;//轮播图数组下标更换
+                            ?>
+<!--                            <img src="../image/banner/ban0.jpg" alt="" style="margin: 0px 3px 0px 0px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban1.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban2.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban3.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban4.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban0.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban1.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban2.jpg" alt="" style="margin: 0px 3px" height="100px" width="145">-->
+<!--                            <img src="../image/banner/ban3.jpg" alt="" style="margin: 0px 0px 0px 3px" height="100px" width="145">-->
                         </div>
                     </div>
                     <div id="banner_rightbtn" class="left img_center" style="width: 20px;height: 100px;margin-left: 10px">
@@ -221,83 +227,27 @@
             <!--图片画廊-->
             <div class="left" style="height: 235px;width: 898px;overflow: hidden">
                 <div id="gallery_box" class="left gallery_box" style="">
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
+                    <?php
+                        for($i=0,$j=0;$j<11;$i++,$j++){
+                            if($i>=6){
+                                $i=0;
+                            }
+                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                            echo '<div class="left gallery">';
+                            echo '<a '.$link.' target="_blank"><img src="'.$carousel[$count+$i][3].'" alt="" width="170px " height="235px"></a>';
+                            echo '<div class="gallery_shadow" style="display: none">';
+                            echo '<a '.$link.' target="_blank">'.$carousel[$count+$i][4].'</a>';
+                            echo '</div></div>';
+                        }
+                        $count=$count+$j-$i;//轮播图数组下标更换
+                    ?>
+<!--                    <div class="left gallery">-->
+<!--                        <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>-->
+<!--                        <div class="gallery_shadow" style="display: none">-->
 <!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">扶一株春蕾，争一分春光，助一名学子，赢一片希望</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">弘扬社会公益慈善精神，传递扶贫济困大爱情怀</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">受助学生代表表示，努力学习，争取早日回报社会，将爱心传递下去</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">十年树木百年树人，百年大计教育为本</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">一滴水，也许微不足道，但汇聚成河就足以让荒漠变成绿洲！</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery5.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">众多的爱心汇聚，可以改变寒门学子一生的命运</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery0.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">扶一株春蕾，争一分春光，助一名学子，赢一片希望</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery1.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">弘扬社会公益慈善精神，传递扶贫济困大爱情怀</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery2.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">受助学生代表表示，努力学习，争取早日回报社会，将爱心传递下去</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery3.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">十年树木百年树人，百年大计教育为本</a>
-                        </div>
-                    </div>
-                    <div class="left gallery">
-                        <a href="javascript:;"><img src="../image/gallery/gallery4.png" alt="" width="170px " height="235px"></a>
-                        <div class="gallery_shadow" style="display: none">
-<!--                            <span>活动</span>-->
-                            <a href="javascript:;" target="_blank">一滴水，也许微不足道，但汇聚成河就足以让荒漠变成绿洲！</a>
-                        </div>
-                    </div>
+<!--                            <a href="javascript:;" target="_blank">扶一株春蕾，争一分春光，助一名学子，赢一片希望</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
             <!--右按钮-->
@@ -323,50 +273,34 @@
         <!--轮播图-->
         <div id="carousel" style="">
             <!--左按钮-->
-            <div class="left carousel_leftbtn">
+            <div class="carousel_leftbtn">
                 <img src="../image/carousel/leftarrow.png" height="170px" width="50px">
             </div>
             <!--图片-->
             <div class="carousel_box" style="background-color: rgba(199,199,199,1)">
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel0.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;赠人玫瑰，手留余香；奉献爱心，收获希望。希望通过持续进行的公益助学活动，尽绵薄之力改变更多学子的命运。未来的日子，奥德将一如既往坚持回报社会，承担社会应有责任，继续参与公益慈善事业，努力将公益之行常态化。
-                    </div>
-                </div>
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel1.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每年都会有这么一群寒门学子，他们渴望知识，埋头苦读，但是高额的学杂费对于他们的家庭来说无疑是沉重的负担，不少有志青年迫于生活的压力无心读书甚至辍学。关注寒门学子，开展公益助学，奥德集团一直在努力。
-                    </div>
-                </div>
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel2.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一滴水，也许微不足道，但汇聚成河就足以让荒漠变成绿洲！一份爱心也许力量有限，但无数颗爱心汇成爱的海洋，就能让这些贫苦的学子挺起自信的脊梁去奋力成就梦想！
-                    </div>
-                </div>
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel3.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;十年树木百年树人，百年大计教育为本。人才培养不仅是国家使命，也是企业义不容辞的社会责任。每一个有责任心、有爱心的企业理应在社会人才培养上发挥其应有的作用，承担其应尽的义务。
-                    </div>
-                </div>
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel4.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在未来的日子，奥德悦生活将一如既往坚持回报社会，承担社会应有责任，继续参与公益慈善事业，努力将公益之行常态化。希望有更多爱心人士加入公益助学活动，让贫苦的学子能在更广阔的世界翱翔，实现自己的人生价值！
-                    </div>
-                </div>
-                <div class="left"  style="height: 472px;width: 983px">
-                    <img class="carousel_img left" src="../image/carousel/carousel0.jpg">
-                    <div class="carousel_text left">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;赠人玫瑰，手留余香；奉献爱心，收获希望。希望通过持续进行的公益助学活动，尽绵薄之力改变更多学子的命运。未来的日子，奥德将一如既往坚持回报社会，承担社会应有责任，继续参与公益慈善事业，努力将公益之行常态化。
-                    </div>
-                </div>
+                <?php
+                    for($i=0,$j=0;$j<6;$i++,$j++){
+                        if($i>=5){
+                            $i=0;
+                        }
+                        $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                        echo '<div class="left"  style="height: 472px;width: 983px">';
+                        echo '<a '.$link.' target="_blank"><img class="carousel_img left" src="'.$carousel[$count+$i][3].'">';
+                        echo '<div class="carousel_text left">'.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$carousel[$count+$i][4].'</div>';
+                        echo '</a></div>';
+                    }
+                    $count=$count+$j-$i;//轮播图数组下标更换
+                ?>
+<!--                <div class="left"  style="height: 472px;width: 983px;z-index: 11">-->
+<!--                    <a href="http://www.baidu.com" target="_blank"><img class="carousel_img left" src="../image/carousel/carousel0.jpg">-->
+<!--                    <div class="carousel_text left">-->
+<!--                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;赠人玫瑰，手留余香；奉献爱心，收获希望。希望通过持续进行的公益助学活动，尽绵薄之力改变更多学子的命运。未来的日子，奥德将一如既往坚持回报社会，承担社会应有责任，继续参与公益慈善事业，努力将公益之行常态化。-->
+<!--                    </div>-->
+<!--                    </a>-->
+<!--                </div>-->
             </div>
             <!--右按钮-->
-            <div class="right carousel_rightbtn">
+            <div class="carousel_rightbtn">
                 <img src="../image/carousel/rightarrow.png" height="170px" width="50px">
             </div>
         </div>
@@ -385,7 +319,7 @@
             </div>
         </div>
         <div style="width: 983px;height: 387px">
-            <a><img class="left" src="../image/funture/funture.png" width="983px" height="387px"></a>
+            <a><img class="left" src="<?php echo $carousel[$count][3];?>" width="983px" height="387px"></a>
             <div class="future_text">
                 <span><b>联系我们</b></span><br>
                 主办：奥德集团&nbsp;/&nbsp;临沂市教育局学生资助管理中心<br>
