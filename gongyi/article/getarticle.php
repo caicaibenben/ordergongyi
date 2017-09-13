@@ -10,7 +10,9 @@
         $row=mysqli_fetch_array($result,MYSQLI_NUM);
         $row[6]=htmlspecialchars_decode($row[6]);
         print_r(json_encode($row));
+        mysqli_close($conn);
         exit;
     }
+    mysqli_close($conn);
     print_r("ID fail".mysqli_num_rows($result));exit;
 ?>

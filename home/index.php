@@ -1,7 +1,7 @@
 <?php
     require_once "connect.php";
-    $sql='select * from carousel';
-    $result=mysqli_query($conn,$sql);
+    $sql_carousel='select * from carousel';
+    $result=mysqli_query($conn,$sql_carousel);
     if(mysqli_num_rows($result)==0||$result==false){
         print_r("数据库查询失败");
         exit;
@@ -11,6 +11,12 @@
         $carousel[$i]=mysqli_fetch_array($result,MYSQLI_NUM);
     }
     $count=0;//标记查询结果数组下标
+    $sql_article="select * from articles where type=0 order by id DESC limit 0,1 ";
+    $result=mysqli_query($conn,$sql_article);
+    $article=mysqli_fetch_array($result,MYSQLI_NUM);
+    mysqli_close($conn);
+    //print_r(mb_substr(strip_tags(htmlspecialchars_decode($article[6])),0,150,'utf-8'));
+    //exit;
 ?>
 <!doctype html>
 <html lang="en-zh">
@@ -132,16 +138,17 @@
                 <div style="width: 670px;height: 180px;margin-top: 10px">
                     <div class="activityshow">
                         <span>活动</span>
-                        <a href="article/article.php" style="padding: 0px"><b>用爱心为贫困学子换取助学金</b></a>
+                        <a href="article/article.php?article=<?php echo $article[0];?>" target="_blank" style="padding: 0px"><b><?php echo $article[4];?></b></a>
                     </div>
                     <div>
                         <a style="float: left"><img src="../image/activity/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
                         <div>
                             <div class="activitycontext">
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="article/article.php" style="color: #000000">深入弘扬沂蒙精神，传递社会爱心，帮助经济困难的大学生顺利完成学业,奥德集团积极履行社会责任，回报社会，并将慈善事业作为系统工程深入实施，以实际行动弘扬“精准扶贫、回馈社会”的精神</a></p>
+                                <p><a href="article/article.php?article=<?php echo $article[0];?>" target="_blank" style="color: #000000"><?php echo '&nbsp;&nbsp;'.mb_substr(strip_tags(htmlspecialchars_decode($article[6])),0,150,'utf-8').'...';?>
+                                </a></p>
                             </div>
                             <div class="right" style="bottom: 0px">
-                                <a href="article/article.php"><img src="../image/ico/xiangqing.png"></a>
+                                <a href="article/article.php?article=<?php echo $article[0];?>" target="_blank"><img src="../image/ico/xiangqing.png"></a>
                             </div>
                         </div>
                     </div>

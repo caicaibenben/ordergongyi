@@ -1,33 +1,48 @@
 <?php
+$articleId='';
+if(!isset($_GET['article'])||$_GET['article']==''){
+    $articleId='0000';//导航至404页面
+}else{
+    $articleId=$_GET['article'];
+}
+require_once "../connect.php";
+$sql="select * from articles where id=$articleId";
+$result=false;
+for($i=0;$i<2;$i++){
+    $result=mysqli_query($conn,$sql);
+    if($result==false||mysqli_num_rows($result)!=1){
+        $articleId='0000';//导航至404页面
+        $sql="select * from articles where id=$articleId";
+    }else if(mysqli_num_rows($result)==1){
+        break;
+    }
+}
+$article=mysqli_fetch_array($result,MYSQLI_NUM);
+if(($article[3]==0&&$article[0]!='0000')||$i==2){
+    print_r('文章检索失败');exit;
+}
+?>
+<?php
 require_once "header.php";
 ?>
-<!--文章显示-->
-<div class="article_box">
-    <div class="article">
-        <!--文章标题-->
-        <div class="article_title">
-            用爱心为贫困学子换取助学金
-        </div>
-        <!--文章信息-->
-        <div class="article_describe">
-            2017-08-23&nbsp;&nbsp;&nbsp;&nbsp;奥德悦生活公益平台
-        </div>
-        <!--文章内容-->
-        <div class="article_text">
-<!--            <p class="article_img"><img src="../article/0821/001.jpg" width="650px"></p>-->
-<!--            <p class="article_img"><img src="../article/0821/002.gif"></p>-->
-<!--            <p class="article_title_sm">02、变革背后，是被高成本逼的</p>-->
-            <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为深入弘扬沂蒙精神，传递社会爱心，帮助经济困难的大学生顺利完成学业，奥德集团在2012年制定了第一个“五年助学计划”，即自2012年起至2016年连续五年，每年在全市选择30名新录取的贫困大学生给予经济资助，为每名大学生提供总额为17000元助学金，直至该大学生顺利完成学业。五年来，奥德集团严格按照“五年计划”实施资助，共资助三区九县的161名贫困大学生，资助金额达272万元。</P>
-            <p class="article_img"><img src="../article/20170822/001/001.jpg" width="650px"></p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年根据林凡连董事长资助人数和资助金额都要增长的意见，响应习近平总书记关于“要做好教育扶贫，不能让孩子输在起跑线上”的指示精神，集团又制订了第二个“五年精准助学计划”，即从2017年到2021年，为迎接党的十九大胜利召开、向建党一百周年献礼，计划在三区九县资助220名贫困大学生。每名大学生助学金总额提升到18000元，其中第一、二学年5000元，从第三年每年资助4000元，直至该大学生顺利完成学业。预计捐资近500万元。</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自活动开展以来，为将助学活动开展的深入、扎实、持续、有效，奥德集团以旗下互联网社区服务平台“奥德悦生活”为载体，充分利用奥德悦生活的互联网优势，搭建“奥德悦生活·公益平台”专题网站，全方位报道精准助学活动。实施“手机网上充燃气送爱心”活动，奥德燃气居民用户可以通过奥德悦生活APP或微信公众号在线充值燃气费，获赠慈善爱心，直接参与到捐资助学计划中。奥德悦生活是奥德集团打造的互联网社区生活服务平台，包括燃气在线缴费、社区电商等基础服务以及社区综合服务、文化旅游、公益平台等增值服务。</p>
-            <p class="article_img"><img src="../article/20170822/001/002.png" width="650px"></p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同时，集团设立了“助学办公室”，建立了QQ群，几年来，助学办与受助学生常沟通、勤交流，保持日常联系，掌握学生的思想动态，关心了解他们的学习生活情况。目前，受助的2012级和2013级60名大学生已经顺利毕业，据了解，有10人考取了国家机关事业单位，11人考取了研究生，23人参加了工作，4人选择了自主创业，8人复习准备考取研究生。今年的助学活动是我们第二个“五年精准助学计划”的第一批学生，捐助的对象是临沂市2017年被高校录取、家庭困难、品学兼优的部分大学生，分别来自临沭、莒南和河东区。本次受资助30名新生，是在市教育局学生资助管理中心、市工商联、市光彩事业促进会、市慈善总会和有关县区教体局的指导和参与下实施的。在这里，希望在座的大学生要树立远大的理想，把社会各界的关爱，化为奋发学习的动力，在逆境中奋进，珍惜来之不易的学习机会，好好学习，刻苦上进，掌握真本领，成为有用之才，将来更好地回馈家庭和社会。</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;奥德集团的发展得益于各级领导和社会各界的支持与帮助。饮水思源，奥德集团积极履行社会责任，回报社会，并将慈善事业作为系统工程深入实施，以实际行动弘扬“精准扶贫、回馈社会”的精神。作为企业，我们只是奉献了一点爱心，帮助家庭困难的大学生实现人生梦想，也希望更多的企业和个人关注公益事业，参与到扶贫助学活动中来！</p>
-
+    <!--文章显示-->
+    <div class="article_box">
+        <div class="article">
+            <!--文章标题-->
+            <div class="article_title">
+                <?php echo $article[4];?>
+            </div>
+            <!--文章信息-->
+            <div class="article_describe">
+                <?php echo $article[7].'&nbsp;&nbsp;&nbsp;&nbsp;'.$article[2];?>
+            </div>
+            <!--文章内容-->
+            <div>
+                <!--文章内容-->
+                <?php echo htmlspecialchars_decode($article[6]);?>
+            </div>
         </div>
     </div>
-</div>
 
 <?php
 require_once "./article_share.php";
