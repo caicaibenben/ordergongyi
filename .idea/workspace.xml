@@ -24,22 +24,29 @@
       <file leaf-file-name="articlelist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/article/articlelist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="66">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getarticlelist.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/article/article.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getarticlelist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/article/getarticlelist.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <marker date="1505297025381" expanded="true" signature="82:131" ph="select count... articles" />
-                <marker date="1505297025381" expanded="true" signature="149:190" ph="select * fro... articles" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,22 +54,8 @@
       <file leaf-file-name="article_handle_down.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gongyi/article/article_handle_down.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="704">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="47" />
-              <folding>
-                <marker date="1504576580276" expanded="true" signature="206:236" ph="delete from " />
-                <marker date="1504576580276" expanded="true" signature="601:631" ph="select count... articles" />
-                <marker date="1504576580276" expanded="true" signature="1102:1177" ph="select id,ti... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_handler_down.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gongyi/js/article/article_handler_down.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gongyi/login.html" />
         <option value="$PROJECT_DIR$/gongyi/add-article.html" />
         <option value="$PROJECT_DIR$/gongyi/add-article.php" />
         <option value="$PROJECT_DIR$/gongyi/getarticle.php" />
@@ -127,14 +119,15 @@
         <option value="$PROJECT_DIR$/gongyi/js/carousel/carousel_pastcheck.js" />
         <option value="$PROJECT_DIR$/gongyi/js/carousel/carousel_schoolhelp.js" />
         <option value="$PROJECT_DIR$/home/index.css" />
-        <option value="$PROJECT_DIR$/home/article/header.php" />
         <option value="$PROJECT_DIR$/home/article/Test.css" />
         <option value="$PROJECT_DIR$/home/article/Test.php" />
         <option value="$PROJECT_DIR$/home/article/article.php" />
         <option value="$PROJECT_DIR$/gongyi/article/getarticle.php" />
         <option value="$PROJECT_DIR$/home/index.php" />
-        <option value="$PROJECT_DIR$/home/article/articlelist.php" />
         <option value="$PROJECT_DIR$/home/article/getarticlelist.php" />
+        <option value="$PROJECT_DIR$/home/article/header.php" />
+        <option value="$PROJECT_DIR$/home/article/articlelist.php" />
+        <option value="$PROJECT_DIR$/home/article/article.css" />
       </list>
     </option>
   </component>
@@ -151,8 +144,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,7 +232,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,17 +392,18 @@
       <workItem from="1505176162785" duration="24082000" />
       <workItem from="1505261196838" duration="101000" />
       <workItem from="1505264182228" duration="24248000" />
+      <workItem from="1505310174165" duration="1458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548310000" />
+    <option name="totallyTimeSpent" value="549768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19265464" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.4942857" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231198" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -677,22 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/article/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/article/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/article/Test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -705,12 +683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="2" />
-          <folding>
-            <marker date="1505267051090" expanded="true" signature="217:249" ph="select * fro... articles" />
-            <marker date="1505267051090" expanded="true" signature="217:250" ph="select * fro... articles" />
-            <marker date="1505267051090" expanded="true" signature="464:496" ph="select * fro... articles" />
-            <marker date="1505267051090" expanded="true" signature="464:506" ph="select * fro... articles" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505121294012" expanded="true" signature="99:127" ph="select max(i... articles" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <marker date="1505290151560" expanded="true" signature="194:238" ph="select * fro... articles" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,19 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
-          <folding>
-            <marker date="1505294385229" expanded="true" signature="57:79" ph="select * fro... carousel" />
-            <marker date="1505294385229" expanded="true" signature="413:475" ph="select * fro... articles" />
-            <marker date="1505294385229" expanded="true" signature="3788:3814" ph="..." />
-            <marker date="1505294385229" expanded="true" signature="5783:5807" ph="..." />
-            <marker date="1505294385229" expanded="true" signature="13883:13896" ph="..." />
-            <marker date="1505294385229" expanded="true" signature="16247:16273" ph="..." />
-            <marker date="1505294385229" expanded="true" signature="16470:16476" ph=" " />
-            <marker date="1505294385229" expanded="true" signature="16476:16482" ph=" " />
-            <marker date="1505294385229" expanded="true" signature="16482:16488" ph=" " />
-            <marker date="1505294385229" expanded="true" signature="16488:16494" ph=" " />
-            <marker date="1505294385229" expanded="true" signature="16494:16500" ph=" " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,30 +727,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-444">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <marker date="1505270441349" expanded="true" signature="185:217" ph="select * fro... articles" />
-            <marker date="1505270441349" expanded="true" signature="408:440" ph="select * fro... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/article/articlelist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongyi/article/article_handle_down.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="704">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <marker date="1504576580276" expanded="true" signature="206:236" ph="delete from " />
-            <marker date="1504576580276" expanded="true" signature="601:631" ph="select count... articles" />
-            <marker date="1504576580276" expanded="true" signature="1102:1177" ph="select id,ti... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -805,10 +743,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <marker date="1505297025381" expanded="true" signature="82:131" ph="select count... articles" />
-            <marker date="1505297025381" expanded="true" signature="149:190" ph="select * fro... articles" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/article/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/article/articlelist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/article/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -37,6 +37,38 @@
     color: #0f0f0f;
 }
 .article_text p{
-    margin: 15px 0px;
+    margin: 0px 0px;
     line-height: 30px;
+}
+.article_list_box_header{
+    background-color: #d1d0d2;
+    width: 700px;
+    height: 40px;
+    color: #0f0f0f;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.article_list_box{
+    margin: 20px auto;
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+}
+.article_show{
+    margin-top:0px;
+    margin-left: 0px;
+    border: 1px solid red;
+    width: 700px;
+}
+.article_show_title{
+    text-align: left;
+}
+.article_show_text{
+    text-align: left;
+}
+.article_show_footer{
+    text-align: right;
 }
