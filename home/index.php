@@ -29,15 +29,16 @@
     <link type="image/x-icon" href="" rel="icon">
     <link href="../image/ico/ico.png" rel="shortcut icon">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+<!--    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>-->
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="./article_share.css" type="text/css">
+    <script src="./article/SearchKey.js"></script>
 </head>
 <body>
 <!--头部-->
@@ -48,7 +49,7 @@
     <img src="../image/ico/gongyi.png" width="160px" style="margin-top: 10px;margin-left: 100px">
     <div id="search" class="right">
         <div class="input-group"  style="width: 300px">
-            <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px">
+            <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px" onkeypress="if(event.keyCode==13) {$('#searchbtn').click();return false;}"  >
             <span class="input-group-btn" id="searchbtn">
                 <button id="searchbtn" class="btn btn-default" type="button" style="background-color: #979797">
                     <span class="glyphicon glyphicon-search"></span>
@@ -139,6 +140,7 @@
                     <div class="activityshow">
                         <span>活动</span>
                         <a href="article/article.php?article=<?php echo $article[0];?>" target="_blank" style="padding: 0px"><b><?php echo $article[4];?></b></a>
+                        <a class="right" href="./article/articlelist.php?type=0" target="_blank" style="font-size: 14px;color: #c7c7c7;text-decoration: none">更多></a>
                     </div>
                     <div>
                         <a style="float: left"><img src="../image/activity/gongyishow.png" width="200px" height="130px" style="border: 1px solid #d5d5d5"></a>
@@ -221,7 +223,7 @@
                     <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>精准助学</b></span>
-                <a class="right" href="javascript:;">更多></a>
+                <a class="right" href="./article/articlelist.php?type=1" target="_blank">更多></a>
             </div>
         </div>
         <!--精准助学图片-->
@@ -274,7 +276,7 @@
                     <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>往期回顾</b></span>
-                <a class="right" href="javascript:;">更多></a>
+                <a class="right" href="./article/articlelist.php?type=2" target="_blank">更多></a>
             </div>
         </div>
         <!--轮播图-->
@@ -322,7 +324,7 @@
                     <img class="left" src="../image/ico/heart_active.png" style="margin-top: 22px" width="25px" height="22px">
                 </div>
                 <span class="left"><b>展望未来</b></span>
-                <a class="right" href="javascript:;">更多></a>
+                <a class="right" href="./article/articlelist.php?type=3" target="_blank">更多></a>
             </div>
         </div>
         <div style="width: 983px;height: 387px">

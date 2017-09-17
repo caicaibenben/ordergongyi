@@ -58,7 +58,7 @@ if (!isset($_SESSION['username'])) {
                         <div class="input-group">
                             <input type="text" class="form-control" autocomplete="off" placeholder="键入关键字搜索" maxlength="15">
                             <span class="input-group-btn">
-                              <button class="btn btn-default" type="submit">搜索</button>
+                              <button class="btn btn-default" type="button">搜索</button>
                             </span>
                         </div>
                     </form>
@@ -100,7 +100,7 @@ if (!isset($_SESSION['username'])) {
             </div>
             <ul class="nav nav-sidebar">
                 <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>用户管理</a></li>
-                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>更改信息</a></li>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>更改密码</a></li>
                 <li><a data-toggle="tooltip" data-placement="bottom" title="暂未开放此功能"><span class="glyphicon glyphicon-triangle-right"></span>登录日志</a></li>
 <!--                <li><a href="category.html" target="right"><span class="glyphicon glyphicon-triangle-right"></span>基本设置</a></li>-->
             </ul>

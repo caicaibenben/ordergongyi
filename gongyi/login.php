@@ -31,10 +31,10 @@
         <h2 class="form-signin-heading">管理员登录</h2>
         <label for="userName" class="sr-only">用户名</label>
         <input type="text" id="userName" name="username" class="form-control" placeholder="请输入用户名" required autofocus
-               autocomplete="off" maxlength="10">
+               autocomplete="off" maxlength="10" onkeypress="if(event.keyCode==13) {$('#userPwd').focus();return false;}">
         <label for="userPwd" class="sr-only">密码</label>
         <input type="password" id="userPwd" name="userpwd" class="form-control" placeholder="请输入密码" required
-               autocomplete="off" maxlength="18">
+               autocomplete="off" maxlength="18" onkeypress="if(event.keyCode==13) {$('#submit').click();return false;}">
         <button class="btn btn-lg btn-primary btn-block" type="button" name="submit" id="submit" value="login">登录</button>
     </form>
 <!--    <div class="footer">-->
@@ -65,7 +65,7 @@
                             if(data.indexOf("fail")!=-1){
                                 alert("用户名或者密码错误");
                             }else if(data.indexOf("fail")==-1){
-                                $('#submit').text("登陆成功");
+                                $('#submit').text("登录中");
                                 window.location.href="index.php";
                             }
                             //console.log(data);

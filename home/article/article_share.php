@@ -21,9 +21,9 @@
             imgScrs+=imgs [i].src;
             if(i+1<imgs.length)imgScrs+=";";
         }
-        console.log($(".article_img img").attr("src"));
-        console.log(imgScrs);
-        console.log(location.href);
+        //console.log($(".article_img img").attr("src"));
+        //console.log(imgScrs);
+        //console.log(location.href);
         window._bd_share_config = {
             "common": {
                 "bdSnsKey": {},

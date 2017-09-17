@@ -9,17 +9,18 @@
     <link type="image/x-icon" href="" rel="icon">
     <link href="../../image/ico/ico.png" rel="shortcut icon">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+    <!--    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>-->
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../jquery-2.1.4.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
     <link rel="stylesheet" href="commom.css" type="text/css">
     <link rel="stylesheet" href="article.css" type="text/css">
 <!--    <script src="./static/api/js/share.js"></script>-->
     <link rel="stylesheet" href="./article_share.css" type="text/css">
+    <script src="SearchKey.js"></script>
 </head>
 <body>
 <!--头部-->
@@ -30,7 +31,7 @@
     <img src="../../image/ico/gongyi.png" width="160px" style="margin-top: 10px;margin-left: 100px">
     <div id="search" class="right">
         <div class="input-group"  style="width: 300px">
-            <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px">
+            <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px" onkeypress="if(event.keyCode==13) {$('#searchbtn').click();return false;}" >
             <span class="input-group-btn" id="searchbtn">
                 <button id="searchbtn" class="btn btn-default" type="button" style="background-color: #979797">
                     <span class="glyphicon glyphicon-search"></span>

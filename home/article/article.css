@@ -5,6 +5,7 @@
 }
 .article{
     width: 700px;
+    min-height: 800px;
     word-wrap:break-word;
 }
 .article_title{
@@ -40,35 +41,92 @@
     margin: 0px 0px;
     line-height: 30px;
 }
-.article_list_box_header{
-    background-color: #d1d0d2;
-    width: 700px;
-    height: 40px;
-    color: #0f0f0f;
-    line-height: 30px;
-    vertical-align: middle;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-}
 .article_list_box{
     margin: 20px auto;
-    border: 1px solid red;
     width: 1000px;
-    height: 500px;
+    min-height: 800px;
 }
-.article_show{
+.article_list_box_header{
+    display: inline-block;
+}
+.article_list_box_header .title{
+    width: 700px;
+    height: 46px;
+    margin: 0px 0px;
+    line-height: 66px;
+    vertical-align: middle;
+    border-bottom: 1px solid #a9a9a9;
+}
+.article_list_box_header .title span{
+    color: #a9a9a9;
+    font-size: 22px;
+    font-family: "微软雅黑","黑体";
+    line-height: 45px;
+    padding-left: 13px;
+    border-bottom: 1px solid red;
+}
+.article_list_box_header .title a{
+    color: #c7c7c7;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+}
+.article_show_box{
     margin-top:0px;
     margin-left: 0px;
-    border: 1px solid red;
     width: 700px;
+}
+.article_show{
+    padding: 10px 5px;
+    border-bottom: 1px solid #a9a9a9;
 }
 .article_show_title{
     text-align: left;
 }
+.article_show_title span{
+    padding-right: 10px;
+    color: #373737;
+}
+.article_show_title a{
+    text-decoration: none;
+    color: #373737;
+    font-size: 20px;
+    line-height: 30px;
+}
+.article_show_title a:hover{
+    color: #000000;
+    cursor: pointer;
+}
 .article_show_text{
     text-align: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    text-indent:24px
 }
 .article_show_footer{
     text-align: right;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+.article_list_box_footer{
+    display: inline-block;
+    width:700px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.article_list_box_footer .pagenav{
+    float: right;
+}
+#pagerow li a{
+    color: #0f0f0f;
+}
+#pagerow li.active a{
+    background-color: #929292;
+    border: 1px solid #929292;
+}
+#pagerow li a:hover{
+    background-color: #bcbcbc;
+    border: 1px solid #bcbcbc;
 }

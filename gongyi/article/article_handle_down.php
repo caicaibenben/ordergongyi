@@ -37,7 +37,7 @@ $page_size = 10;//每页文章数目
 $page_num = ceil($article_num / $page_size);
 if ($page < 1) {
     $page = 1;//页数小于1,自动返回第一页
-}elseif ($page > $page_num){
+}else if ($page > $page_num){
     $page=$page_num;//页数大于最大页，默认最大页
 }
 $limitFirst = ($page - 1) * $page_size;
