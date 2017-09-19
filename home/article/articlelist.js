@@ -26,8 +26,9 @@ $().ready(function () {
 				//keyword=articleArray['0'][3];//关键词
 				$('.article_show_box').empty();
 				for(var i=1;i<articleArray.length;i++){
+					var mark=articleArray[i][3]==2?'style="color: red"':'';
 					$('.article_show_box').append('<div class="article_show"></div>');
-					$('div.article_show:last').append('<div class="article_show_title"><span class="glyphicon glyphicon-book"></span><a target="_blank" href="'+"article.php?article="+articleArray[i][0]+'">'+articleArray[i][4]+'</a></div>');
+					$('div.article_show:last').append('<div class="article_show_title"><span  '+mark+'  class="glyphicon glyphicon-book"></span><a target="_blank" href="'+"article.php?article="+articleArray[i][0]+'">'+articleArray[i][4]+'</a></div>');
 					$('div.article_show:last').append('<div class="article_show_text">'+$.trim(articleArray[i][6]).replace(/&nbsp;/ig,"")+'...'+'</div>');
 					$('div.article_show:last').append('<div class="article_show_footer">'+articleArray[i][7]+'</div>');
 				}

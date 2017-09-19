@@ -27,8 +27,8 @@
         window._bd_share_config = {
             "common": {
                 "bdSnsKey": {},
-                "bdUrl":location.href,
-                "bdText": $(".article_title").text()+"@"+$("title").text(),
+                "bdUrl":window.location.href,
+                "bdText": $(".article_title").text()+"@"+$("title").text()+' '+window.location.href,
                 "bdMini": "2",
                 "bdMiniList": false,
                 "bdPic":imgScrs,

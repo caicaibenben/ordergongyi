@@ -4,7 +4,6 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit;
 }
-
 //echo dirname(__FILE__);
 ?>
 <!doctype html>

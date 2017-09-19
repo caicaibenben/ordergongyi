@@ -40,7 +40,7 @@ if($page<1){
     $page=$page_num;
 }
 $limitFirst = ($page - 1) * $pageSize;
-$sql_article.=" order by id ASC limit $limitFirst ,$pageSize  ";
+$sql_article.=" order by mark DESC,id ASC limit $limitFirst ,$pageSize  ";
 $result = mysqli_query($conn, $sql_article);
 if ($result==false||mysqli_num_rows($result)==0) {
     print_r("check article fail detail");

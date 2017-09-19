@@ -453,8 +453,8 @@ $().ready(function () {
 		carousel[1]=tr.find("td").eq(0).text();
 		carousel[2]=tr.find('td img').prop("src").replace(host,'');
 		carousel[3]=tr.find('textarea').val();
-		carousel[4]=tr.find("td input:text").val();
-		if(carousel[4].indexOf('http')==-1){
+		carousel[4]=$.trim(tr.find("td input:text").val());
+		if(carousel[4]!=''&&carousel[4].indexOf('http')==-1){
 			carousel[4]='http://'+carousel[4];
 		}
 		console.log(carousel);

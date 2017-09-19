@@ -1,31 +1,60 @@
 $(document).ready(function () {
 	//切屏动画
-	var imgCount_banner = 0;//初始化并记录切换数据
-	var imgCount_tumb_banner=0;
-	var imgLength_banner = $(".img_box img").length;
-	var imgLength_tumb_banner = $(".img_box_tumb img").length;
-	var imgWidthEach_banner =670;
-	var imgWidthEach_tumb_banner =155;
+	var imgCount_banner = 0;//记录banner切换数据编号
+	var imgCount_tumb_banner=0;//记录缩略图切换数据编号
+	var imgLength_banner = $(".img_box img").length;//banner的总数
+	var imgLength_tumb_banner = $(".img_box_tumb img").length;//缩略图的总数
+	var imgWidthEach_banner =670;//单个banner的宽度-像素
+	var imgWidthEach_tumb_banner =155;//单个缩略图的宽度-像素
 	var  imgTimer_banner = null;//记录定时切换
+	$(".img_box_tumb img").eq(imgCount_tumb_banner).addClass("active");
 	console.log(imgLength_banner);
 	console.log(imgLength_tumb_banner);
-	function imgMove() {
-		imgCount_banner++;
-		imgCount_tumb_banner++;
-		console.log(imgCount_banner);
-		if(imgCount_banner==imgLength_banner){
+	//图片移动处理，1向右 -1向左
+	function imgMove(direction,speed) {
+		//banner处理
+		imgCount_banner+=direction;
+		if(imgCount_banner==imgLength_banner){//banner到达尾部情况的处理
 			//console.log(imgCount);
 			imgCount_banner=1;
 			$('.img_box').css({'left':0});
 		}
-		if(imgCount_tumb_banner==(imgLength_tumb_banner-3)){
-			imgCount_tumb_banner=1;
+		if(imgCount_banner<0){//banner到达头部情况的处理
+			//console.log(imgCount);
+			imgCount_banner=imgLength_banner-2;
+			$('.img_box').css({'left':-(imgLength_banner-1)*imgWidthEach_banner});
+		}
+		$(".img_box").stop().animate({'left':-imgCount_banner*imgWidthEach_banner},speed);
+
+		//缩略图处理
+		imgCount_tumb_banner+=direction;
+		if(imgCount_tumb_banner==(imgLength_tumb_banner-1)){//缩略图向右到达尾部情况的处理
+			imgCount_tumb_banner=imgCount_tumb_banner%5;
 			$('.img_box_tumb').css({'left':0});
 		}
-		$(".img_box").stop().animate({'left':-imgCount_banner*imgWidthEach_banner},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb_banner*imgWidthEach_tumb_banner},500);
+		if(imgCount_tumb_banner<0){//缩略图开始在0位置时向左移动的处理
+			imgCount_tumb_banner=4;
+			$('.img_box_tumb').css({'left':-5*imgWidthEach_tumb_banner});
+		}
+		if(imgCount_tumb_banner<1){//缩略图向左到达头部移动的处理
+			//console.log(imgCount);
+			imgCount_tumb_banner=5;
+			$('.img_box_tumb').css({'left':-5*imgWidthEach_tumb_banner});
+		}
+		//添加红色边框
+		$(".img_box_tumb img").removeClass("active");
+		$(".img_box_tumb img").eq(imgCount_tumb_banner).addClass("active");
+
+		//缩略图向右移动
+		if(imgCount_tumb_banner>=3&&direction>0){
+			$(".img_box_tumb").stop().animate({'left':-(imgCount_tumb_banner-2)*imgWidthEach_tumb_banner*direction},speed);
+		}
+		//缩略图向左移动
+		if(imgCount_tumb_banner<=5&&direction<0){
+			$(".img_box_tumb").stop().animate({'left':(imgCount_tumb_banner-1)*imgWidthEach_tumb_banner*direction},speed);
+		}
 	}
-	imgTimer_banner = window.setInterval(imgMove, 4000);
+	imgTimer_banner = window.setInterval(imgMove, 4000,1,500);
 	// //图标鼠标事件
 	// $("#icon-out  .icon  img").on({
 	// 	mouseover:function(){
@@ -64,35 +93,23 @@ $(document).ready(function () {
 	//
 	// 	}
 	// });
-	$("#banner_leftbtn").on("click",function () {
-		console.log("left");
-		imgCount_banner--;
-		imgCount_tumb_banner--;
-		if(imgCount_banner<0){
-			imgCount_banner=4;
-			$('.img_box').css({'left':-3370});
+	//缩略图点击
+	$(".img_box_tumb img").on("click",function () {
+		var index=$(this).index()-imgCount_tumb_banner;
+		if(Math.abs(index)==1){
+			imgMove(index,500);
+		}else if(Math.abs(index)==2){
+			imgMove(index/2,250);
+			imgMove(index/2,250);
 		}
-		if(imgCount_tumb_banner<0){
-			imgCount_tumb_banner=4;
-			$('.img_box_tumb').css({'left':-775});
-		}
-		$(".img_box").stop().animate({'left':-imgCount_banner*imgWidthEach_banner},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb_banner*imgWidthEach_tumb_banner},500);
 	});
+	//左箭头点击
+	$("#banner_leftbtn").on("click",function () {
+		imgMove(-1,500);
+	});
+	//右箭头点击
 	$("#banner_rightbtn").on("click",function () {
-		console.log("right");
-		imgCount_banner++;
-		imgCount_tumb_banner++;
-		if(imgCount_banner==imgLength_banner){
-			imgCount_banner=1;
-			$('.img_box').css({'left':0});
-		}
-		if(imgCount_tumb_banner==(imgLength_tumb_banner-3)){
-			imgCount_tumb_banner=1;
-			$('.img_box_tumb').css({'left':0});
-		}
-		$(".img_box").stop().animate({'left':-imgCount_banner*imgWidthEach_banner},500);
-		$(".img_box_tumb").stop().animate({'left':-imgCount_tumb_banner*imgWidthEach_tumb_banner},500);
+		imgMove(1,500);
 	});
 
 	//切屏动画

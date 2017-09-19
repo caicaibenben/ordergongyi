@@ -91,12 +91,15 @@
     margin-left: 10px;
     text-decoration: none;
 }
-.img_box_tumb{
+ .img_box_tumb{
     position: absolute;
     padding: 0px;
     margin: 0px;
     height: 100px;
     width: 1500px;
+}
+.img_box_tumb .active{
+    border: 1px solid red;
 }
 .activityshow{
     display: block;

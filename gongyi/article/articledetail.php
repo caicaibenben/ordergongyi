@@ -1,4 +1,11 @@
 <?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: ../login.php");
+    exit;
+}
+
+//echo dirname(__FILE__);
 if(isset($_GET['act'])&&($_GET['act']=='add')){
     require_once "../connect.php";
     $act="select max(id) from articles";

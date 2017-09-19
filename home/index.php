@@ -29,13 +29,14 @@
     <link type="image/x-icon" href="" rel="icon">
     <link href="../image/ico/ico.png" rel="shortcut icon">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- 可选的Bootstrap主题文件（一般不使用） -->
+    <link href="./bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <!--    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>-->
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="jquery-2.1.4.min.js"></script>
+    <script src="./bootstrap/js/jquery-3.2.1.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="bootstrap.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="./article_share.css" type="text/css">
     <script src="./article/SearchKey.js"></script>
@@ -51,7 +52,7 @@
         <div class="input-group"  style="width: 300px">
             <input type="text" class="form-control" placeholder="请输入你要搜索的内容" width="250px" onkeypress="if(event.keyCode==13) {$('#searchbtn').click();return false;}"  >
             <span class="input-group-btn" id="searchbtn">
-                <button id="searchbtn" class="btn btn-default" type="button" style="background-color: #979797">
+                <button id="searchbtn" class="btn btn-default" type="button">
                     <span class="glyphicon glyphicon-search"></span>
                 </button>
             </span>
@@ -86,9 +87,9 @@
                             if($i>=5){
                                 $i=0;
                             }
-                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"  target="_blank"';
                             echo '<div class="left display" style="width: 670px;height: 360px">';
-                            echo '<a '.$link.' target="_blank"><img src="'.$carousel[$count+$i][3].'" alt="" width="670px " height="360px"></a>';
+                            echo '<a '.$link.'><img src="'.$carousel[$count+$i][3].'" alt="" width="670px " height="360px"></a>';
                             echo '<span class="banner_shadow">';
                             echo '<em>活动</em><a target="_blank">'.$carousel[$count+$i][4].'</a>';
                             echo '</span></div>';
@@ -241,9 +242,9 @@
                             if($i>=6){
                                 $i=0;
                             }
-                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                            $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"  target="_blank"';
                             echo '<div class="left gallery">';
-                            echo '<a '.$link.' target="_blank"><img src="'.$carousel[$count+$i][3].'" alt="" width="170px " height="235px"></a>';
+                            echo '<a '.$link.'><img src="'.$carousel[$count+$i][3].'" alt="" width="170px " height="235px"></a>';
                             echo '<div class="gallery_shadow" style="display: none">';
                             echo '<a '.$link.' target="_blank">'.$carousel[$count+$i][4].'</a>';
                             echo '</div></div>';
@@ -292,9 +293,9 @@
                         if($i>=5){
                             $i=0;
                         }
-                        $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"';
+                        $link=($carousel[$count+$i][5]=='')?' ':' href="'.$carousel[$count+$i][5].'"  target="_blank"';
                         echo '<div class="left"  style="height: 472px;width: 983px">';
-                        echo '<a '.$link.' target="_blank"><img class="carousel_img left" src="'.$carousel[$count+$i][3].'">';
+                        echo '<a '.$link.'><img class="carousel_img left" src="'.$carousel[$count+$i][3].'">';
                         echo '<div class="carousel_text left">'.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'.$carousel[$count+$i][4].'</div>';
                         echo '</a></div>';
                     }

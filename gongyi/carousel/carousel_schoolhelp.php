@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: ../login.php");
+    exit;
+}
 require_once "../connect.php";
 $type=array("测试占位","活动报道","精准助学","往期回顾","展望未来");
 $sql="select * from carousel where type=2";
